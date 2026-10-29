@@ -1,0 +1,10 @@
+{
+  "filesystems": [
+    {
+      "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-xfs",
+      "source": "/dev/loop1",
+      "fstype": "xfs",
+      "options": "rw,noatime,inode64,logbufs=8,logbsize=32k,noquota"
+    }
+  ]
+}

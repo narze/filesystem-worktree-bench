@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><style>
+    body {margin:0;font-family:var(--font-sans,system-ui);color:var(--foreground,#ddd)}
+    h2 {font-size:20px;margin:0 0 8px} p {font-size:13px;color:var(--muted-foreground,#999);line-height:1.5}
+    .chart {display:grid;grid-template-columns:70px 1fr 1fr;gap:12px 10px;align-items:center;margin:22px 0}
+    .label {font-size:12px;color:var(--muted-foreground,#999)} .worker {font-size:12px}
+    .track {height:38px;position:relative;background:var(--secondary,#20252a);border-radius:4px;overflow:hidden}
+    .bar {height:100%;opacity:.4} .time {background:var(--chart-1,#69aaff)}
+    .rate {background:var(--chart-2,#50cfaa)} .track span {position:absolute;left:8px;top:11px;font-size:12px}
+    .scroll {overflow-x:auto} table {border-collapse:collapse;width:100%;font-size:12px;font-variant-numeric:tabular-nums}
+    th,td {text-align:right;padding:9px 5px;border-bottom:1px solid var(--border,#353535)}
+    th {color:var(--muted-foreground,#999);font-weight:500} th:first-child,td:first-child {text-align:left}
+    </style></head><body>
+    <h2>Eventpop · local filesystem baseline</h2>
+    <p>Commit 0e0499f42444 · 10 measured batches per worker count · warm cache</p>
+    <div class="chart"><div></div><div class="label">Median batch time · lower is faster</div>
+    <div class="label">Median throughput · higher is faster</div><div class="worker">1 worker</div>
+        <div class="track"><div class="bar time" style="width:33.86%"></div>
+        <span>5.673 s / batch</span></div>
+        <div class="track"><div class="bar rate" style="width:66.80%"></div>
+        <span>0.18 workflows/s</span></div><div class="worker">2 workers</div>
+        <div class="track"><div class="bar time" style="width:45.24%"></div>
+        <span>7.579 s / batch</span></div>
+        <div class="track"><div class="bar rate" style="width:100.00%"></div>
+        <span>0.26 workflows/s</span></div><div class="worker">3 workers</div>
+        <div class="track"><div class="bar time" style="width:70.63%"></div>
+        <span>11.833 s / batch</span></div>
+        <div class="track"><div class="bar rate" style="width:96.07%"></div>
+        <span>0.25 workflows/s</span></div><div class="worker">4 workers</div>
+        <div class="track"><div class="bar time" style="width:100.00%"></div>
+        <span>16.754 s / batch</span></div>
+        <div class="track"><div class="bar rate" style="width:90.47%"></div>
+        <span>0.24 workflows/s</span></div></div>
+    <div class="scroll"><table><thead><tr><th>Workers</th><th>Checkout</th><th>Install</th><th>Delete</th>
+    <th>Total</th><th>Total range</th></tr></thead><tbody><tr><td>1</td><td>0.759</td><td>2.647</td><td>2.263</td><td>5.673</td><td>5.569 - 6.244</td></tr><tr><td>2</td><td>0.926</td><td>3.788</td><td>2.885</td><td>7.579</td><td>7.437 - 8.785</td></tr><tr><td>3</td><td>1.362</td><td>6.634</td><td>3.909</td><td>11.833</td><td>11.202 - 13.529</td></tr><tr><td>4</td><td>1.836</td><td>10.054</td><td>4.889</td><td>16.754</td><td>16.396 - 20.160</td></tr></tbody></table></div>
+    <p>All times in seconds. Phase columns show medians; total is the median of each batch's sum.
+    Each batch contains one workflow per worker, with stage barriers between checkout, install, and deletion.
+    More workers means more work. Setup and Git metadata pruning are outside the timers.</p>
+    <p>Offline pnpm installs · scripts disabled · import method: auto.
+    Measures command completion without a storage flush. This run does not compare APFS.</p>
+    </body></html>

@@ -1,0 +1,108 @@
+{
+  "captured_utc": "2026-10-28T18:15:24.221953+00:00",
+  "hostname": "[REDACTED]",
+  "system": "Darwin",
+  "kernel": "25.6.0",
+  "architecture": "arm64",
+  "python_version": "3.14.6",
+  "target": "/Users/narze/fsbench/eventpop-20261028-f7KaAQ",
+  "disk_usage_bytes": {
+    "total": 494384795648,
+    "used": 447004897280,
+    "free": 47379898368
+  },
+  "load_average": [
+    3.80322265625,
+    5.28759765625,
+    4.77880859375
+  ],
+  "git_version": "git version 2.55.0",
+  "os_release": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+  "cpu": {
+    "machdep.cpu.brand_string": "Apple M4 Pro",
+    "hw.model": "Mac16,8",
+    "hw.physicalcpu": "12",
+    "hw.logicalcpu": "12",
+    "hw.memsize": "25769803776"
+  },
+  "hardware": [
+    {
+      "_name": "hardware_overview",
+      "chip_type": "Apple M4 Pro",
+      "machine_model": "Mac16,8",
+      "machine_name": "MacBook Pro",
+      "model_number": "MX2H3TH/A",
+      "number_processors": "proc 12:8:4:0",
+      "physical_memory": "24 GB"
+    }
+  ],
+  "storage": [
+    {
+      "_items": [
+        {
+          "_name": "APPLE SSD AP0512Z",
+          "bsd_name": "disk0",
+          "device_model": "APPLE SSD AP0512Z",
+          "size": "500.28 GB",
+          "size_in_bytes": 500277792768,
+          "spnvme_trim_support": "Yes"
+        }
+      ],
+      "_name": "Apple SSD Controller"
+    }
+  ],
+  "graphics": [
+    {
+      "_name": "Apple M4 Pro",
+      "spdisplays_ndrvs": [
+        {
+          "_name": "Color LCD"
+        }
+      ],
+      "spdisplays_vendor": "sppci_vendor_Apple",
+      "sppci_cores": "16",
+      "sppci_device_type": "spdisplays_gpu",
+      "sppci_model": "Apple M4 Pro"
+    }
+  ],
+  "filesystem": {
+    "APFSContainerFree": 47379779584,
+    "APFSContainerSize": 494384795648,
+    "BusProtocol": "Apple Fabric",
+    "DeviceBlockSize": 4096,
+    "DeviceIdentifier": "disk3s5",
+    "DeviceNode": "/dev/disk3s5",
+    "FileVault": true,
+    "FilesystemName": "APFS",
+    "FilesystemType": "apfs",
+    "IOKitSize": 494384795648,
+    "Internal": true,
+    "MediaName": "",
+    "MediaType": "Generic",
+    "SMARTStatus": "Verified",
+    "Size": 494384795648,
+    "SolidState": true,
+    "TotalSize": 494384795648,
+    "VolumeName": "Data",
+    "Writable": true
+  },
+  "physical_disk": {
+    "BusProtocol": "Apple Fabric",
+    "DeviceBlockSize": 4096,
+    "DeviceIdentifier": "disk0",
+    "DeviceNode": "/dev/disk0",
+    "IOKitSize": 500277792768,
+    "Internal": true,
+    "MediaName": "APPLE SSD AP0512Z",
+    "MediaType": "Generic",
+    "SMARTStatus": "Verified",
+    "Size": 500277792768,
+    "SolidState": true,
+    "TotalSize": 500277792768,
+    "VolumeName": "",
+    "Writable": true
+  },
+  "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23330915)\t80%; AC attached; not charging present: true",
+  "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         5\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         10\n womp                 1\n networkoversleep     0\n sleep                0\n tcpkeepalive         1\n disksleep            10",
+  "collection_errors": []
+}

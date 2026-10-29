@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-10-28T18:13:31.535924+00:00",
+  "removed_path": "/home/narze/fsbench/eventpop-20261029-bOAlze",
+  "result_sha256": "8e1ef96595b52a86a79e72b45b52aabb40e2eb0a4cbac2559cf25f16edaf3532",
+  "approx_allocated_bytes_removed": 1636388864,
+  "exists_after": false,
+  "filesystem_bytes_before": {
+    "total": 125868965888,
+    "used": 49489776640,
+    "free": 74476351488
+  },
+  "filesystem_bytes_after": {
+    "total": 125868965888,
+    "used": 49125216256,
+    "free": 74682806272
+  }
+}

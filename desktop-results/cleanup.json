@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-10-28T18:13:38.099832+00:00",
+  "removed_path": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-z0swaiei",
+  "result_sha256": "784ee2820f6567acc4e4c46804012366a37d2609f4fb99ebc2a7bebb6c35f457",
+  "approx_allocated_bytes_removed": 1085665280,
+  "exists_after": false,
+  "filesystem_bytes_before": {
+    "total": 497014538240,
+    "used": 149527105536,
+    "free": 345791279104
+  },
+  "filesystem_bytes_after": {
+    "total": 497014538240,
+    "used": 149216366592,
+    "free": 345942142976
+  }
+}

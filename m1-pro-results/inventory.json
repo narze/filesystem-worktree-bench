@@ -1,0 +1,108 @@
+{
+  "captured_utc": "2026-10-28T18:13:29.125919+00:00",
+  "hostname": "[REDACTED]",
+  "system": "Darwin",
+  "kernel": "25.6.0",
+  "architecture": "arm64",
+  "python_version": "3.14.7",
+  "target": "/Users/narze/fsbench/eventpop-20261029-UFaQ7q",
+  "disk_usage_bytes": {
+    "total": 994662584320,
+    "used": 895304699904,
+    "free": 99357884416
+  },
+  "load_average": [
+    37.2529296875,
+    51.091796875,
+    58.57275390625
+  ],
+  "git_version": "git version 2.55.0",
+  "os_release": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+  "cpu": {
+    "machdep.cpu.brand_string": "Apple M1 Pro",
+    "hw.model": "MacBookPro18,3",
+    "hw.physicalcpu": "10",
+    "hw.logicalcpu": "10",
+    "hw.memsize": "34359738368"
+  },
+  "hardware": [
+    {
+      "_name": "hardware_overview",
+      "chip_type": "Apple M1 Pro",
+      "machine_model": "MacBookPro18,3",
+      "machine_name": "MacBook Pro",
+      "model_number": "Z15H002MMTH/A",
+      "number_processors": "proc 10:8:2:0",
+      "physical_memory": "32 GB"
+    }
+  ],
+  "storage": [
+    {
+      "_items": [
+        {
+          "_name": "APPLE SSD AP1024R",
+          "bsd_name": "disk0",
+          "device_model": "APPLE SSD AP1024R",
+          "size": "1 TB",
+          "size_in_bytes": 1000555581440,
+          "spnvme_trim_support": "Yes"
+        }
+      ],
+      "_name": "Apple SSD Controller"
+    }
+  ],
+  "graphics": [
+    {
+      "_name": "Apple M1 Pro",
+      "spdisplays_ndrvs": [
+        {
+          "_name": "Color LCD"
+        }
+      ],
+      "spdisplays_vendor": "sppci_vendor_Apple",
+      "sppci_cores": "16",
+      "sppci_device_type": "spdisplays_gpu",
+      "sppci_model": "Apple M1 Pro"
+    }
+  ],
+  "filesystem": {
+    "APFSContainerFree": 99357868032,
+    "APFSContainerSize": 994662584320,
+    "BusProtocol": "Apple Fabric",
+    "DeviceBlockSize": 4096,
+    "DeviceIdentifier": "disk3s5",
+    "DeviceNode": "/dev/disk3s5",
+    "FileVault": true,
+    "FilesystemName": "APFS",
+    "FilesystemType": "apfs",
+    "IOKitSize": 994662584320,
+    "Internal": true,
+    "MediaName": "",
+    "MediaType": "Generic",
+    "SMARTStatus": "Verified",
+    "Size": 994662584320,
+    "SolidState": true,
+    "TotalSize": 994662584320,
+    "VolumeName": "Data",
+    "Writable": true
+  },
+  "physical_disk": {
+    "BusProtocol": "Apple Fabric",
+    "DeviceBlockSize": 4096,
+    "DeviceIdentifier": "disk0",
+    "DeviceNode": "/dev/disk0",
+    "IOKitSize": 1000555581440,
+    "Internal": true,
+    "MediaName": "APPLE SSD AP1024R",
+    "MediaType": "Generic",
+    "SMARTStatus": "Verified",
+    "Size": 1000555581440,
+    "SolidState": true,
+    "TotalSize": 1000555581440,
+    "VolumeName": "",
+    "Writable": true
+  },
+  "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=81068131)\t84%; AC attached; not charging present: true",
+  "power_settings": "Battery Power:\n Sleep On Power Button 1\n lowpowermode         1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             0\n hibernatefile        /var/vm/sleepimage\n displaysleep         5\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         0\n disksleep            10\n SleepServices        0\nAC Power:\n Sleep On Power Button 1\n lowpowermode         0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             0\n hibernatefile        /var/vm/sleepimage\n displaysleep         10\n womp                 1\n networkoversleep     0\n sleep                0\n tcpkeepalive         0\n disksleep            10\n SleepServices        0",
+  "collection_errors": []
+}

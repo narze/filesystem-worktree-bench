@@ -1,0 +1,124 @@
+{
+  "captured_utc": "2026-10-28T18:11:54.158054+00:00",
+  "hostname": "[REDACTED]",
+  "system": "Linux",
+  "kernel": "6.12.90+deb13.1-amd64",
+  "architecture": "x86_64",
+  "python_version": "3.13.5",
+  "target": "/home/narze/fsbench/eventpop-20261029-mHK14W",
+  "disk_usage_bytes": {
+    "total": 974029213696,
+    "used": 61653577728,
+    "free": 862822191104
+  },
+  "load_average": [
+    0.44775390625,
+    3.84423828125,
+    9.9130859375
+  ],
+  "git_version": "git version 2.47.3",
+  "hardware": {
+    "sys_vendor": "Dell Inc.",
+    "product_name": "OptiPlex 3050",
+    "product_version": "",
+    "board_vendor": "Dell Inc.",
+    "board_name": "0JP3NX",
+    "bios_vendor": "Dell Inc.",
+    "bios_version": "1.27.0",
+    "bios_date": "09/19/2023"
+  },
+  "cpu": {
+    "Architecture": "x86_64",
+    "CPU(s)": "4",
+    "Model name": "Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz",
+    "Thread(s) per core": "1",
+    "Core(s) per socket": "4",
+    "Socket(s)": "1",
+    "CPU max MHz": "3300.0000",
+    "CPU min MHz": "800.0000"
+  },
+  "os_release": {
+    "PRETTY_NAME": "Debian GNU/Linux 13 (trixie)",
+    "NAME": "Debian GNU/Linux",
+    "VERSION": "13 (trixie)"
+  },
+  "memory_bytes": {
+    "MemTotal": 8190574592,
+    "MemAvailable": 3442089984,
+    "SwapTotal": 8446275584,
+    "SwapFree": 5633765376
+  },
+  "block_devices": {
+    "blockdevices": [
+      {
+        "name": "sda",
+        "type": "disk",
+        "size": 1000204886016,
+        "fstype": null,
+        "model": "HGST HTS721010A9E630",
+        "rota": true,
+        "tran": "sata",
+        "mountpoints": [],
+        "children": [
+          {
+            "name": "sda1",
+            "type": "part",
+            "size": 1023410176,
+            "fstype": "vfat",
+            "model": null,
+            "rota": true,
+            "tran": null,
+            "mountpoints": [
+              "/boot/efi"
+            ]
+          },
+          {
+            "name": "sda2",
+            "type": "part",
+            "size": 990733402112,
+            "fstype": "ext4",
+            "model": null,
+            "rota": true,
+            "tran": null,
+            "mountpoints": [
+              "/"
+            ]
+          },
+          {
+            "name": "sda3",
+            "type": "part",
+            "size": 8446279680,
+            "fstype": "swap",
+            "model": null,
+            "rota": true,
+            "tran": null,
+            "mountpoints": [
+              "[SWAP]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "filesystem": {
+    "filesystems": [
+      {
+        "target": "/",
+        "source": "/dev/sda2",
+        "fstype": "ext4",
+        "options": "rw,relatime,errors=remount-ro"
+      }
+    ]
+  },
+  "graphics": [
+    "00:02.0 VGA compatible controller: Intel Corporation HD Graphics 630 (rev 04)"
+  ],
+  "power": {
+    "/sys/class/power_supply/hidpp_battery_0/online": "0",
+    "/sys/class/power_supply/hidpp_battery_0/status": "Unknown"
+  },
+  "cpu_governor": "powersave",
+  "energy_preference": "performance",
+  "platform_profile": null,
+  "collection_errors": []
+}

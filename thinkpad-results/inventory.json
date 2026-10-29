@@ -1,0 +1,149 @@
+{
+  "captured_utc": "2026-10-28T18:11:53.970415+00:00",
+  "hostname": "[REDACTED]",
+  "system": "Linux",
+  "kernel": "7.2.8-9-omarchy",
+  "architecture": "x86_64",
+  "python_version": "3.14.8",
+  "target": "/home/narze/fsbench/eventpop-20261029-bOAlze",
+  "disk_usage_bytes": {
+    "total": 125868965888,
+    "used": 49491443712,
+    "free": 74474618880
+  },
+  "load_average": [
+    1.56103515625,
+    1.94775390625,
+    3.26025390625
+  ],
+  "git_version": "git version 2.56.0",
+  "hardware": {
+    "sys_vendor": "LENOVO",
+    "product_name": "20J9S1NR00",
+    "product_version": "ThinkPad L570",
+    "board_vendor": "LENOVO",
+    "board_name": "20J9S1NR00",
+    "bios_vendor": "LENOVO",
+    "bios_version": "N1XET84W (1.62 )",
+    "bios_date": "02/23/2024"
+  },
+  "cpu": {
+    "Architecture": "x86_64",
+    "CPU(s)": "4",
+    "Model name": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+    "Thread(s) per core": "2",
+    "Core(s) per socket": "2",
+    "Socket(s)": "1",
+    "CPU max MHz": "3500.0000",
+    "CPU min MHz": "400.0000"
+  },
+  "os_release": {
+    "NAME": "Omarchy",
+    "PRETTY_NAME": "Omarchy"
+  },
+  "memory_bytes": {
+    "MemTotal": 8182710272,
+    "MemAvailable": 3824574464,
+    "SwapTotal": 16368357376,
+    "SwapFree": 1523523584
+  },
+  "block_devices": {
+    "blockdevices": [
+      {
+        "name": "sda",
+        "type": "disk",
+        "size": 128035676160,
+        "fstype": null,
+        "model": "SAMSUNG MZ7LN128HAHQ-00007",
+        "rota": false,
+        "tran": "sata",
+        "mountpoints": [],
+        "children": [
+          {
+            "name": "sda1",
+            "type": "part",
+            "size": 2147483648,
+            "fstype": "vfat",
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": [
+              "/boot"
+            ]
+          },
+          {
+            "name": "sda2",
+            "type": "part",
+            "size": 125885743104,
+            "fstype": "crypto_LUKS",
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": [],
+            "children": [
+              {
+                "name": "root",
+                "type": "crypt",
+                "size": 125868965888,
+                "fstype": "btrfs",
+                "model": null,
+                "rota": false,
+                "tran": null,
+                "mountpoints": [
+                  "/var/log",
+                  "/var/cache/pacman/pkg",
+                  "/home",
+                  "/"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sr0",
+        "type": "rom",
+        "size": 1073741312,
+        "fstype": null,
+        "model": "HL-DT-ST DVDRAM GUE0N",
+        "rota": false,
+        "tran": "sata",
+        "mountpoints": []
+      },
+      {
+        "name": "zram0",
+        "type": "disk",
+        "size": 8182038528,
+        "fstype": "swap",
+        "model": null,
+        "rota": false,
+        "tran": null,
+        "mountpoints": [
+          "[SWAP]"
+        ]
+      }
+    ]
+  },
+  "filesystem": {
+    "filesystems": [
+      {
+        "target": "/home",
+        "source": "/dev/mapper/root[/@home]",
+        "fstype": "btrfs",
+        "options": "rw,relatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home"
+      }
+    ]
+  },
+  "graphics": [
+    "00:02.0 VGA compatible controller: Intel Corporation Kaby Lake-U GT2 [HD Graphics 620] (rev 02)"
+  ],
+  "power": {
+    "/sys/class/power_supply/AC/online": "1",
+    "/sys/class/power_supply/ACAD/online": "1",
+    "/sys/class/power_supply/BAT0/status": "Not charging"
+  },
+  "cpu_governor": "powersave",
+  "energy_preference": "balance_performance",
+  "platform_profile": null,
+  "collection_errors": []
+}

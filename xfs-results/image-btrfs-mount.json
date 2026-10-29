@@ -1,0 +1,10 @@
+{
+  "filesystems": [
+    {
+      "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-btrfs",
+      "source": "/dev/loop0",
+      "fstype": "btrfs",
+      "options": "rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=5,subvol=/"
+    }
+  ]
+}

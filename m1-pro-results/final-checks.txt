@@ -1,0 +1,14 @@
+CHECK: git -C /Users/narze/Code/eventpop/eventpop status --porcelain
+
+CHECK: df -h .
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   926Gi   789Gi    93Gi    90%     11M  971M    1%   /System/Volumes/Data
+
+CHECK: du -sh fsbench-pbp49bvq
+1.0G	fsbench-pbp49bvq
+
+CHECK: git --git-dir fsbench-pbp49bvq/repo.git worktree list --porcelain
+worktree /Users/narze/fsbench/eventpop-20261029-UFaQ7q/fsbench-pbp49bvq/repo.git
+bare
+
+

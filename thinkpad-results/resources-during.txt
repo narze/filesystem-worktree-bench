@@ -1,0 +1,12 @@
+    PID %CPU COMMAND
+1595577 68.8 node-MainThread
+1595575 68.4 node-MainThread
+1595576 67.6 node-MainThread
+1595578 67.3 node-MainThread
+1593901 39.6 python3
+1128911 28.3 chrome
+ 379744  6.9 steamwebhelper
+1058963  6.3 quickshell
+    902  5.2 wireplumber
+ 379477  4.7 steam
+   2149  4.7 herdr

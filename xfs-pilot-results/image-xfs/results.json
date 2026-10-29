@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "status": "failed",
+  "samples": [
+    {
+      "workers": 3,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 1.7082832130836323,
+        "worker_seconds": [
+          1.6980335969710723,
+          1.6977944569662213,
+          1.7080506749916822
+        ]
+      },
+      "install": {
+        "batch_seconds": 4.652208994026296,
+        "worker_seconds": [
+          4.651544404099695,
+          4.648557838052511,
+          4.652032773010433
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.716878577019088,
+        "worker_seconds": [
+          3.716814236016944,
+          3.6985621999483556,
+          3.694484762963839
+        ]
+      },
+      "total_seconds": 10.077370784129016
+    },
+    {
+      "workers": 2,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 1.2271543280221522,
+        "worker_seconds": [
+          1.1346938830101863,
+          1.227026117965579
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.713942324044183,
+        "worker_seconds": [
+          3.706476783961989,
+          3.7138959169387817
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.5942265540361404,
+        "worker_seconds": [
+          2.5824133979622275,
+          2.5941671319305897
+        ]
+      },
+      "total_seconds": 7.5353232061024755
+    }
+  ],
+  "metadata": {
+    "started_utc": "2026-10-29T03:51:13.783298+00:00",
+    "source": "/home/narze/Code/github.com/eventpop/eventpop",
+    "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+    "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-xfs/fsbench-8pwjywfb",
+    "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+    "machine": "x86_64",
+    "cpu_count": 16,
+    "git_version": "git version 2.56.0",
+    "python_version": "3.14.8",
+    "workers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "runs": 10,
+    "warmups_per_worker_count": 1,
+    "cache": "warm / uncontrolled OS cache; no cache eviction",
+    "durability": "command completion; no fsync or cache flush",
+    "import_method": "auto",
+    "install_scripts": false,
+    "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+    "seed_store": null,
+    "free_bytes_before": 16751112192,
+    "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-xfs\",\n         \"source\": \"/dev/loop1\",\n         \"fstype\": \"xfs\",\n         \"options\": \"rw,noatime,inode64,logbufs=8,logbsize=32k,noquota\"\n      }\n   ]\n}",
+    "tracked_files": 10055,
+    "pnpm_version": "11.18.0",
+    "node_version": "v24.22.1",
+    "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+    "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+    "finished_utc": "2026-10-29T03:52:36.459570+00:00",
+    "preflight_batches_excluded": 4,
+    "paired_experiment": true,
+    "case": "image-xfs",
+    "measured_started_utc": "2026-10-29T03:52:36.469647+00:00"
+  },
+  "error": ""
+}

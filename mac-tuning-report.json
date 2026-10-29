@@ -1,0 +1,741 @@
+{
+  "experiment": {
+    "started_utc": "2026-10-29T06:09:29.995756+00:00",
+    "name": "FSBenchTuning-20261029c",
+    "status": "complete",
+    "conditions": [
+      {
+        "label": "A",
+        "spotlight_requested": true,
+        "persistent_logging_requested": true,
+        "mdutil_toggle": "2026-10-29 13:09:37.032 mdutil[98449:6122159] Volume /System/Volumes/Data/Volumes/FSBenchTuning-20261029c is transitioning, waiting 5 seconds (try 1 of 15)\n/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing enabled. \n",
+        "mdutil_status": "/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing enabled. \n",
+        "mounts": "/dev/disk3s1s1 on / (apfs, sealed, local, read-only, journaled)\ndevfs on /dev (devfs, local, nobrowse)\n/dev/disk3s6 on /System/Volumes/VM (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk3s2 on /System/Volumes/Preboot (apfs, local, journaled, nobrowse)\n/dev/disk3s4 on /System/Volumes/Update (apfs, local, journaled, nobrowse)\n/dev/disk1s2 on /System/Volumes/xarts (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk1s1 on /System/Volumes/iSCPreboot (apfs, local, journaled, nobrowse)\n/dev/disk1s3 on /System/Volumes/Hardware (apfs, local, journaled, nobrowse)\n/dev/disk3s5 on /System/Volumes/Data (apfs, local, journaled, nobrowse, protect, root data)\nmap auto_home on /System/Volumes/Data/home (autofs, automounted, nobrowse)\nOrbStack:/OrbStack on /Users/narze/OrbStack (nfs, nodev, nosuid, noatime, mounted by narze)\n/dev/disk3s7 on /Volumes/FSBenchTuning-20261029c (apfs, local, journaled, protect)\n",
+        "status": "complete"
+      },
+      {
+        "label": "B",
+        "spotlight_requested": false,
+        "persistent_logging_requested": true,
+        "mdutil_toggle": "2026-10-29 13:35:41.111 mdutil[27686:6258564] Volume /System/Volumes/Data/Volumes/FSBenchTuning-20261029c is transitioning, waiting 5 seconds (try 1 of 15)\n2026-10-29 13:35:46.113 mdutil[27686:6258564] mdutil disabling Spotlight: /System/Volumes/Data/Volumes/FSBenchTuning-20261029c -> kMDConfigSearchLevelFSSearchOnly\n/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing disabled.\n",
+        "mdutil_status": "/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing disabled.\n",
+        "mounts": "/dev/disk3s1s1 on / (apfs, sealed, local, read-only, journaled)\ndevfs on /dev (devfs, local, nobrowse)\n/dev/disk3s6 on /System/Volumes/VM (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk3s2 on /System/Volumes/Preboot (apfs, local, journaled, nobrowse)\n/dev/disk3s4 on /System/Volumes/Update (apfs, local, journaled, nobrowse)\n/dev/disk1s2 on /System/Volumes/xarts (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk1s1 on /System/Volumes/iSCPreboot (apfs, local, journaled, nobrowse)\n/dev/disk1s3 on /System/Volumes/Hardware (apfs, local, journaled, nobrowse)\n/dev/disk3s5 on /System/Volumes/Data (apfs, local, journaled, nobrowse, protect, root data)\nmap auto_home on /System/Volumes/Data/home (autofs, automounted, nobrowse)\nOrbStack:/OrbStack on /Users/narze/OrbStack (nfs, nodev, nosuid, noatime, mounted by narze)\n/dev/disk3s7 on /Volumes/FSBenchTuning-20261029c (apfs, local, journaled, protect)\n",
+        "status": "complete"
+      },
+      {
+        "label": "D",
+        "spotlight_requested": false,
+        "persistent_logging_requested": false,
+        "mdutil_toggle": "2026-10-29 14:02:42.825 mdutil[83160:6540877] mdutil disabling Spotlight: /System/Volumes/Data/Volumes/FSBenchTuning-20261029c -> kMDConfigSearchLevelFSSearchOnly\n/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing disabled.\n",
+        "mdutil_status": "/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing disabled.\n",
+        "mounts": "/dev/disk3s1s1 on / (apfs, sealed, local, read-only, journaled)\ndevfs on /dev (devfs, local, nobrowse)\n/dev/disk3s6 on /System/Volumes/VM (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk3s2 on /System/Volumes/Preboot (apfs, local, journaled, nobrowse)\n/dev/disk3s4 on /System/Volumes/Update (apfs, local, journaled, nobrowse)\n/dev/disk1s2 on /System/Volumes/xarts (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk1s1 on /System/Volumes/iSCPreboot (apfs, local, journaled, nobrowse)\n/dev/disk1s3 on /System/Volumes/Hardware (apfs, local, journaled, nobrowse)\n/dev/disk3s5 on /System/Volumes/Data (apfs, local, journaled, nobrowse, protect, root data)\nmap auto_home on /System/Volumes/Data/home (autofs, automounted, nobrowse)\nOrbStack:/OrbStack on /Users/narze/OrbStack (nfs, nodev, nosuid, noatime, mounted by narze)\n/dev/disk3s7 on /Volumes/FSBenchTuning-20261029c (apfs, local, journaled, protect)\n",
+        "status": "complete"
+      },
+      {
+        "label": "C",
+        "spotlight_requested": true,
+        "persistent_logging_requested": false,
+        "mdutil_toggle": "/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing enabled. \n",
+        "mdutil_status": "/System/Volumes/Data/Volumes/FSBenchTuning-20261029c:\n\tIndexing enabled. \n",
+        "mounts": "/dev/disk3s1s1 on / (apfs, sealed, local, read-only, journaled)\ndevfs on /dev (devfs, local, nobrowse)\n/dev/disk3s6 on /System/Volumes/VM (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk3s2 on /System/Volumes/Preboot (apfs, local, journaled, nobrowse)\n/dev/disk3s4 on /System/Volumes/Update (apfs, local, journaled, nobrowse)\n/dev/disk1s2 on /System/Volumes/xarts (apfs, local, noexec, journaled, noatime, nobrowse)\n/dev/disk1s1 on /System/Volumes/iSCPreboot (apfs, local, journaled, nobrowse)\n/dev/disk1s3 on /System/Volumes/Hardware (apfs, local, journaled, nobrowse)\n/dev/disk3s5 on /System/Volumes/Data (apfs, local, journaled, nobrowse, protect, root data)\nmap auto_home on /System/Volumes/Data/home (autofs, automounted, nobrowse)\nOrbStack:/OrbStack on /Users/narze/OrbStack (nfs, nodev, nosuid, noatime, mounted by narze)\n/dev/disk3s7 on /Volumes/FSBenchTuning-20261029c (apfs, local, journaled, protect)\n",
+        "status": "complete"
+      }
+    ],
+    "free_before": 40447651840,
+    "protocol": "A/B/C/D, 10 randomized worker rounds each; warm cache; pnpm 11.18.0",
+    "inventory_before": {
+      "captured_utc": "2026-10-29T06:09:29.996085+00:00",
+      "hostname": "[REDACTED]",
+      "system": "Darwin",
+      "kernel": "25.6.0",
+      "architecture": "arm64",
+      "python_version": "3.14.6",
+      "target": "/Users/narze",
+      "disk_usage_bytes": {
+        "total": 494384795648,
+        "used": 453937147904,
+        "free": 40447647744
+      },
+      "load_average": [
+        15.18115234375,
+        30.96044921875,
+        43.130859375
+      ],
+      "git_version": "git version 2.55.0",
+      "os_release": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+      "cpu": {
+        "machdep.cpu.brand_string": "Apple M4 Pro",
+        "hw.model": "Mac16,8",
+        "hw.physicalcpu": "12",
+        "hw.logicalcpu": "12",
+        "hw.memsize": "25769803776"
+      },
+      "hardware": [
+        {
+          "_name": "hardware_overview",
+          "chip_type": "Apple M4 Pro",
+          "machine_model": "Mac16,8",
+          "machine_name": "MacBook Pro",
+          "model_number": "MX2H3TH/A",
+          "number_processors": "proc 12:8:4:0",
+          "physical_memory": "24 GB"
+        }
+      ],
+      "storage": [
+        {
+          "_items": [
+            {
+              "_name": "APPLE SSD AP0512Z",
+              "bsd_name": "disk0",
+              "device_model": "APPLE SSD AP0512Z",
+              "size": "500.28 GB",
+              "size_in_bytes": 500277792768,
+              "spnvme_trim_support": "Yes"
+            }
+          ],
+          "_name": "Apple SSD Controller"
+        }
+      ],
+      "graphics": [
+        {
+          "_name": "Apple M4 Pro",
+          "spdisplays_ndrvs": [
+            {
+              "_name": "DELL U2718Q"
+            },
+            {
+              "_name": "Color LCD"
+            }
+          ],
+          "spdisplays_vendor": "sppci_vendor_Apple",
+          "sppci_cores": "16",
+          "sppci_device_type": "spdisplays_gpu",
+          "sppci_model": "Apple M4 Pro"
+        }
+      ],
+      "filesystem": {
+        "APFSContainerFree": 40447803392,
+        "APFSContainerSize": 494384795648,
+        "BusProtocol": "Apple Fabric",
+        "DeviceBlockSize": 4096,
+        "DeviceIdentifier": "disk3s5",
+        "DeviceNode": "/dev/disk3s5",
+        "FileVault": true,
+        "FilesystemName": "APFS",
+        "FilesystemType": "apfs",
+        "IOKitSize": 494384795648,
+        "Internal": true,
+        "MediaName": "",
+        "MediaType": "Generic",
+        "SMARTStatus": "Verified",
+        "Size": 494384795648,
+        "SolidState": true,
+        "TotalSize": 494384795648,
+        "VolumeName": "Data",
+        "Writable": true
+      },
+      "physical_disk": {
+        "BusProtocol": "Apple Fabric",
+        "DeviceBlockSize": 4096,
+        "DeviceIdentifier": "disk0",
+        "DeviceNode": "/dev/disk0",
+        "IOKitSize": 500277792768,
+        "Internal": true,
+        "MediaName": "APPLE SSD AP0512Z",
+        "MediaType": "Generic",
+        "SMARTStatus": "Verified",
+        "Size": 500277792768,
+        "SolidState": true,
+        "TotalSize": 500277792768,
+        "VolumeName": "",
+        "Writable": true
+      },
+      "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23330915)\t80%; AC attached; not charging present: true",
+      "power_settings": "Battery Power:\n Sleep On Power Button 1\n powermode            1\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         5\n womp                 0\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n powermode            0\n standby              1\n ttyskeepawake        1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n displaysleep         10\n womp                 1\n networkoversleep     0\n sleep                0\n tcpkeepalive         1\n disksleep            10",
+      "collection_errors": []
+    },
+    "startup_spotlight": "/:\n\tIndexing enabled. \n",
+    "data_spotlight": "/System/Volumes/Data:\n\tIndexing disabled.\n",
+    "create_output": "Will export new encrypted APFS Volume \"FSBenchTuning-20261029c\" from APFS Container Reference disk3 with a 16000000000-byte quota\nStarted APFS operation on disk3\nPreparing to add APFS Volume to APFS Container disk3\nCreating APFS Volume\nCreated new APFS Volume disk3s7\nMounting APFS Volume\nSetting volume permissions\nDisk from APFS operation: disk3s7\nFinished APFS operation on disk3\n",
+    "volume_uuid": "260BEE06-F575-4905-83EE-B3F2CC0E600E",
+    "device": "disk3s7",
+    "volume_info": {
+      "AESHardware": true,
+      "APFSContainerFree": 40443940864,
+      "APFSContainerReference": "disk3",
+      "APFSContainerSize": 494384795648,
+      "APFSPhysicalStores": [
+        {
+          "APFSPhysicalStore": "disk0s2"
+        }
+      ],
+      "APFSSnapshot": false,
+      "Bootable": true,
+      "BooterDeviceIdentifier": "disk3s2",
+      "BusProtocol": "Apple Fabric",
+      "CanBeMadeBootable": false,
+      "CanBeMadeBootableRequiresDestroy": false,
+      "CapacityInUse": 40960,
+      "Content": "41504653-0000-11AA-AA11-00306543ECAC",
+      "DeviceBlockSize": 4096,
+      "DeviceIdentifier": "disk3s7",
+      "DeviceNode": "/dev/disk3s7",
+      "DeviceTreePath": "IODeviceTree:/arm-io@10F00000/ans@9600000/iop-ans-nub/AppleANS3CGv2Controller",
+      "DiskUUID": "260BEE06-F575-4905-83EE-B3F2CC0E600E",
+      "Ejectable": false,
+      "EjectableMediaAutomaticUnderSoftwareControl": false,
+      "EjectableOnly": false,
+      "Encryption": true,
+      "EncryptionThisVolumeProper": true,
+      "FileVault": true,
+      "FilesystemName": "APFS",
+      "FilesystemType": "apfs",
+      "FilesystemUserVisibleName": "APFS",
+      "FreeSpace": 0,
+      "GlobalPermissionsEnabled": true,
+      "IOKitSize": 494384795648,
+      "IORegistryEntryName": "FSBenchTuning-20261029c",
+      "Internal": true,
+      "Locked": false,
+      "MediaName": "",
+      "MediaType": "Generic",
+      "MountPoint": "/Volumes/FSBenchTuning-20261029c",
+      "OSInternalMedia": false,
+      "ParentWholeDisk": "disk3",
+      "PartitionMapPartition": false,
+      "RAIDMaster": false,
+      "RAIDSlice": false,
+      "RecoveryDeviceIdentifier": "disk3s3",
+      "Removable": false,
+      "RemovableMedia": false,
+      "RemovableMediaOrExternalDevice": false,
+      "SMARTDeviceSpecificKeysMayVaryNotGuaranteed": {
+        "AVAILABLE_SPARE": 100,
+        "AVAILABLE_SPARE_THRESHOLD": 99,
+        "CONTROLLER_BUSY_TIME_0": 0,
+        "CONTROLLER_BUSY_TIME_1": 0,
+        "DATA_UNITS_READ_0": 870796752,
+        "DATA_UNITS_READ_1": 0,
+        "DATA_UNITS_WRITTEN_0": 453681775,
+        "DATA_UNITS_WRITTEN_1": 0,
+        "HOST_READ_COMMANDS_0": 17963551286,
+        "HOST_READ_COMMANDS_1": 0,
+        "HOST_WRITE_COMMANDS_0": 6986746284,
+        "HOST_WRITE_COMMANDS_1": 0,
+        "MEDIA_ERRORS_0": 0,
+        "MEDIA_ERRORS_1": 0,
+        "NUM_ERROR_INFO_LOG_ENTRIES_0": 0,
+        "NUM_ERROR_INFO_LOG_ENTRIES_1": 0,
+        "PERCENTAGE_USED": 9,
+        "POWER_CYCLES_0": 373,
+        "POWER_CYCLES_1": 0,
+        "POWER_ON_HOURS_0": 3993,
+        "POWER_ON_HOURS_1": 0,
+        "TEMPERATURE": 317,
+        "UNSAFE_SHUTDOWNS_0": 27,
+        "UNSAFE_SHUTDOWNS_1": 0
+      },
+      "SMARTStatus": "Verified",
+      "Sealed": "No",
+      "Size": 494384795648,
+      "SolidState": true,
+      "SupportsGlobalPermissionsDisable": true,
+      "SystemImage": false,
+      "TotalSize": 16000000000,
+      "VolumeAllocationBlockSize": 4096,
+      "VolumeName": "FSBenchTuning-20261029c",
+      "VolumeSize": 0,
+      "VolumeUUID": "260BEE06-F575-4905-83EE-B3F2CC0E600E",
+      "WholeDisk": false,
+      "Writable": true,
+      "WritableMedia": true,
+      "WritableVolume": true
+    },
+    "delete_output": "Started APFS operation\nDeleting APFS Volume from its APFS Container\nUnmounting disk3s7\nErasing any xART session referenced by 260BEE06-F575-4905-83EE-B3F2CC0E600E\nDeleting Volume\nRemoving any Preboot and Recovery Directories\nFinished APFS operation\n",
+    "volume_deleted": true,
+    "free_after": 37050400768,
+    "finished_utc": "2026-10-29T07:57:54.588489+00:00",
+    "startup_spotlight_after": "/:\n\tIndexing enabled. \n"
+  },
+  "summaries": {
+    "A": {
+      "3": {
+        "samples": 10,
+        "median_seconds": 38.80370114550169,
+        "min_seconds": 37.390505540999584,
+        "max_seconds": 40.08479537398671,
+        "stage_medians": {
+          "checkout": 2.5897945830001845,
+          "install": 27.697719896001217,
+          "delete": 8.623829249496339
+        },
+        "speedup_vs_A": 1.0
+      },
+      "2": {
+        "samples": 10,
+        "median_seconds": 24.976141250001092,
+        "min_seconds": 24.60433416599699,
+        "max_seconds": 26.731230584002333,
+        "stage_medians": {
+          "checkout": 2.042926832997182,
+          "install": 16.865678271002253,
+          "delete": 6.096162250003545
+        },
+        "speedup_vs_A": 1.0
+      },
+      "4": {
+        "samples": 10,
+        "median_seconds": 56.54430104199855,
+        "min_seconds": 54.14505624999583,
+        "max_seconds": 58.6582715009863,
+        "stage_medians": {
+          "checkout": 3.553513582999585,
+          "install": 39.2971619795062,
+          "delete": 13.791133270497085
+        },
+        "speedup_vs_A": 1.0
+      },
+      "1": {
+        "samples": 10,
+        "median_seconds": 12.716951042493747,
+        "min_seconds": 12.216624209002475,
+        "max_seconds": 13.075538582997979,
+        "stage_medians": {
+          "checkout": 1.7809447500039823,
+          "install": 6.17900752100104,
+          "delete": 4.640158187503403
+        },
+        "speedup_vs_A": 1.0
+      }
+    },
+    "B": {
+      "3": {
+        "samples": 10,
+        "median_seconds": 37.57562806249189,
+        "min_seconds": 35.40282458301226,
+        "max_seconds": 40.16100554098375,
+        "stage_medians": {
+          "checkout": 2.5976787920008064,
+          "install": 25.71366214599402,
+          "delete": 9.077298291493207
+        },
+        "speedup_vs_A": 1.0326827027606138
+      },
+      "2": {
+        "samples": 10,
+        "median_seconds": 25.608833124497323,
+        "min_seconds": 24.245346415991662,
+        "max_seconds": 26.391921874019317,
+        "stage_medians": {
+          "checkout": 1.9740141665024566,
+          "install": 17.134300041499955,
+          "delete": 6.466208958001516
+        },
+        "speedup_vs_A": 0.9752939983083024
+      },
+      "4": {
+        "samples": 10,
+        "median_seconds": 54.51516408401221,
+        "min_seconds": 48.12504045901005,
+        "max_seconds": 58.487845167008345,
+        "stage_medians": {
+          "checkout": 3.4369239165025647,
+          "install": 36.7782676459974,
+          "delete": 13.655025312502403
+        },
+        "speedup_vs_A": 1.037221514271869
+      },
+      "1": {
+        "samples": 10,
+        "median_seconds": 13.37953120801103,
+        "min_seconds": 13.099708625988569,
+        "max_seconds": 15.810451333003584,
+        "stage_medians": {
+          "checkout": 1.8698496455035638,
+          "install": 6.670782187502482,
+          "delete": 4.909768062505464
+        },
+        "speedup_vs_A": 0.9504780731689193
+      }
+    },
+    "D": {
+      "3": {
+        "samples": 10,
+        "median_seconds": 37.42228522899677,
+        "min_seconds": 36.13578045798931,
+        "max_seconds": 41.00646316600614,
+        "stage_medians": {
+          "checkout": 2.665950916503789,
+          "install": 25.33010941649991,
+          "delete": 9.346367313002702
+        },
+        "speedup_vs_A": 1.036914258657687
+      },
+      "2": {
+        "samples": 10,
+        "median_seconds": 25.610802770519513,
+        "min_seconds": 24.555028750997735,
+        "max_seconds": 26.826231042010477,
+        "stage_medians": {
+          "checkout": 2.2642857499886304,
+          "install": 16.593809354009863,
+          "delete": 6.671669000003021
+        },
+        "speedup_vs_A": 0.9752189915245852
+      },
+      "4": {
+        "samples": 10,
+        "median_seconds": 52.60710106200713,
+        "min_seconds": 51.513229249976575,
+        "max_seconds": 54.30055033399549,
+        "stage_medians": {
+          "checkout": 3.2068523330017342,
+          "install": 35.53978495800402,
+          "delete": 14.17288510450453
+        },
+        "speedup_vs_A": 1.0748416069410611
+      },
+      "1": {
+        "samples": 10,
+        "median_seconds": 13.723968292499194,
+        "min_seconds": 12.789741625980241,
+        "max_seconds": 15.516045249038143,
+        "stage_medians": {
+          "checkout": 1.7273839580084314,
+          "install": 6.870807645987952,
+          "delete": 4.963502916994912
+        },
+        "speedup_vs_A": 0.9266234642529865
+      }
+    },
+    "C": {
+      "3": {
+        "samples": 10,
+        "median_seconds": 39.05544383300003,
+        "min_seconds": 37.37688024996896,
+        "max_seconds": 40.13880912499735,
+        "stage_medians": {
+          "checkout": 2.9254351460112957,
+          "install": 25.90901218750514,
+          "delete": 9.675458020486985
+        },
+        "speedup_vs_A": 0.993554222848554
+      },
+      "2": {
+        "samples": 10,
+        "median_seconds": 26.083655916518182,
+        "min_seconds": 23.526426874945173,
+        "max_seconds": 28.490567585016834,
+        "stage_medians": {
+          "checkout": 2.294685187516734,
+          "install": 16.87097849950078,
+          "delete": 6.569737937505124
+        },
+        "speedup_vs_A": 0.9575398989289793
+      },
+      "4": {
+        "samples": 10,
+        "median_seconds": 54.08224814549612,
+        "min_seconds": 51.24293458397733,
+        "max_seconds": 57.07232695797575,
+        "stage_medians": {
+          "checkout": 3.5809967499953927,
+          "install": 36.728438166494016,
+          "delete": 13.99926656250318
+        },
+        "speedup_vs_A": 1.0455242335688197
+      },
+      "1": {
+        "samples": 10,
+        "median_seconds": 13.840050541984965,
+        "min_seconds": 12.837231915997108,
+        "max_seconds": 15.219087917008437,
+        "stage_medians": {
+          "checkout": 1.805967687498196,
+          "install": 7.0487585209921235,
+          "delete": 5.042229166501784
+        },
+        "speedup_vs_A": 0.9188514885777187
+      }
+    }
+  },
+  "limitations": [
+    "One sequential block per condition, not randomized crossover; repeated batches are not independent repetitions of a setting change.",
+    "Surfshark antivirus was present but recorded near-zero cumulative CPU during scored intervals; the busy diagnostic snapshot came from an earlier attempt. Blocking or kernel overhead was not measured.",
+    "Spotify used roughly one CPU core during much of the experiment. Active swap-out page volume increased substantially between conditions.",
+    "Warm cache; scripts disabled; offline timed installs; no fsync.",
+    "no_log requests persistent-history suppression; live event processing continues.",
+    "Daemon counters cover the whole machine, with no idle baseline or per-volume attribution; high CPU alone does not establish a workload bottleneck.",
+    "CPU deltas can undercount restarted processes. Raw snapshots include preparation; reported scored intervals exclude setup, warmups and the first batch.",
+    "Spotlight enabled/disabled status was checked, but indexing of representative benchmark files was not verified.",
+    "No build or HMR compatibility validation in this experiment.",
+    "One short metadata-only history verification ran during condition D; all samples are retained."
+  ],
+  "no_log_verification": {
+    "captured_epoch": 1793257840.250335,
+    "marker_mtime": 1793257361.7240496,
+    "history_files": 26275,
+    "history_logical_bytes": 1614995451,
+    "latest_history_mtime": 1793257361.4008102,
+    "history_files_modified_over_10s_after_marker": 0
+  },
+  "cleanup_verification": {
+    "verified_utc": "2026-10-29T08:07:01.841021+00:00",
+    "temporary_volume_uuid": "260BEE06-F575-4905-83EE-B3F2CC0E600E",
+    "volume_uuid_absent": true,
+    "benchmark_volumes_remaining": [],
+    "mount_path_absent": true,
+    "fseventsd_pids": [
+      "346"
+    ],
+    "startup_spotlight": "/:\n\tIndexing enabled. \n",
+    "data_spotlight": "/System/Volumes/Data:\n\tIndexing disabled.\n",
+    "current_free_bytes": 37987024896
+  },
+  "raw_evidence_directory": "mac-tuning-results/main",
+  "run_metadata": {
+    "A": {
+      "started_utc": "2026-10-29T06:10:42.580842+00:00",
+      "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+      "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+      "target": "/Volumes/FSBenchTuning-20261029c/fsbench-x0rwbz26",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "cpu_count": 12,
+      "git_version": "git version 2.55.0",
+      "python_version": "3.14.6",
+      "workers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": 10,
+      "warmups_per_worker_count": 1,
+      "cache": "warm / uncontrolled OS cache; no cache eviction",
+      "durability": "command completion; no fsync or cache flush",
+      "import_method": "auto",
+      "install_scripts": false,
+      "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+      "seed_store": null,
+      "free_bytes_before": 15999111168,
+      "mount": "Filesystem   512-blocks Used Available Capacity  Mounted on\n/dev/disk3s7   31250000 1736  31248264     1%    /Volumes/FSBenchTuning-20261029c",
+      "tracked_files": 10055,
+      "pnpm_version": "11.18.0",
+      "node_version": "v24.22.1",
+      "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+      "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+      "finished_utc": "2026-10-29T06:35:15.306298+00:00"
+    },
+    "B": {
+      "started_utc": "2026-10-29T06:37:09.008939+00:00",
+      "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+      "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+      "target": "/Volumes/FSBenchTuning-20261029c/fsbench-8pieeh8f",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "cpu_count": 12,
+      "git_version": "git version 2.55.0",
+      "python_version": "3.14.6",
+      "workers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": 10,
+      "warmups_per_worker_count": 1,
+      "cache": "warm / uncontrolled OS cache; no cache eviction",
+      "durability": "command completion; no fsync or cache flush",
+      "import_method": "auto",
+      "install_scripts": false,
+      "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+      "seed_store": "/Volumes/FSBenchTuning-20261029c/seed-store",
+      "free_bytes_before": 14098587648,
+      "mount": "Filesystem   512-blocks    Used Available Capacity  Mounted on\n/dev/disk3s7   31250000 3713696  27536304    12%    /Volumes/FSBenchTuning-20261029c",
+      "tracked_files": 10055,
+      "pnpm_version": "11.18.0",
+      "node_version": "v24.22.1",
+      "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+      "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+      "finished_utc": "2026-10-29T07:01:45.507199+00:00"
+    },
+    "D": {
+      "started_utc": "2026-10-29T07:04:34.075610+00:00",
+      "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+      "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+      "target": "/Volumes/FSBenchTuning-20261029c/fsbench-scnveons",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "cpu_count": 12,
+      "git_version": "git version 2.55.0",
+      "python_version": "3.14.6",
+      "workers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": 10,
+      "warmups_per_worker_count": 1,
+      "cache": "warm / uncontrolled OS cache; no cache eviction",
+      "durability": "command completion; no fsync or cache flush",
+      "import_method": "auto",
+      "install_scripts": false,
+      "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+      "seed_store": "/Volumes/FSBenchTuning-20261029c/seed-store",
+      "free_bytes_before": 13580976128,
+      "mount": "Filesystem   512-blocks    Used Available Capacity  Mounted on\n/dev/disk3s7   31250000 4724656  26525344    16%    /Volumes/FSBenchTuning-20261029c",
+      "tracked_files": 10055,
+      "pnpm_version": "11.18.0",
+      "node_version": "v24.22.1",
+      "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+      "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+      "finished_utc": "2026-10-29T07:28:57.486380+00:00"
+    },
+    "C": {
+      "started_utc": "2026-10-29T07:31:53.885545+00:00",
+      "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+      "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+      "target": "/Volumes/FSBenchTuning-20261029c/fsbench-6ftpqqcu",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "machine": "arm64",
+      "cpu_count": 12,
+      "git_version": "git version 2.55.0",
+      "python_version": "3.14.6",
+      "workers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "runs": 10,
+      "warmups_per_worker_count": 1,
+      "cache": "warm / uncontrolled OS cache; no cache eviction",
+      "durability": "command completion; no fsync or cache flush",
+      "import_method": "auto",
+      "install_scripts": false,
+      "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+      "seed_store": "/Volumes/FSBenchTuning-20261029c/seed-store",
+      "free_bytes_before": 13413908480,
+      "mount": "Filesystem   512-blocks    Used Available Capacity  Mounted on\n/dev/disk3s7   31250000 5050960  26199040    17%    /Volumes/FSBenchTuning-20261029c",
+      "tracked_files": 10055,
+      "pnpm_version": "11.18.0",
+      "node_version": "v24.22.1",
+      "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+      "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+      "finished_utc": "2026-10-29T07:56:54.297662+00:00"
+    }
+  },
+  "scored_interval_daemon_cpu": {
+    "A": {
+      "covered_samples": 39,
+      "wall_seconds": 1294.009027,
+      "cpu_seconds_delta": {
+        "mds_stores": 187.78,
+        "mdworker_shared": 12.639999999999993,
+        "mds": 158.4799999999999,
+        "fseventsd": 1729.0
+      }
+    },
+    "B": {
+      "covered_samples": 39,
+      "wall_seconds": 1270.436531,
+      "cpu_seconds_delta": {
+        "mds_stores": 0.08000000000000007,
+        "mds": 103.87999999999988,
+        "fseventsd": 1709.789999999999
+      }
+    },
+    "D": {
+      "covered_samples": 39,
+      "wall_seconds": 1265.170439,
+      "cpu_seconds_delta": {
+        "mds_stores": 0.02999999999999936,
+        "mds": 97.24000000000001,
+        "fseventsd": 1565.8899999999994
+      }
+    },
+    "C": {
+      "covered_samples": 39,
+      "wall_seconds": 1299.448229,
+      "cpu_seconds_delta": {
+        "mds_stores": 143.61,
+        "mds": 153.97000000000003,
+        "fseventsd": 1583.8400000000001
+      }
+    }
+  },
+  "scored_interval_memory": {
+    "A": {
+      "swap_start": "vm.swapusage: total = 15360.00M  used = 14087.19M  free = 1272.81M  (encrypted)\n",
+      "swap_end": "vm.swapusage: total = 13312.00M  used = 12052.88M  free = 1259.12M  (encrypted)\n",
+      "page_size": 16384,
+      "counter_deltas": {
+        "Swapins": 172973,
+        "Swapouts": 132873,
+        "Pageouts": 16526
+      }
+    },
+    "B": {
+      "swap_start": "vm.swapusage: total = 13312.00M  used = 12034.19M  free = 1277.81M  (encrypted)\n",
+      "swap_end": "vm.swapusage: total = 14336.00M  used = 13776.50M  free = 559.50M  (encrypted)\n",
+      "page_size": 16384,
+      "counter_deltas": {
+        "Swapins": 265050,
+        "Swapouts": 382280,
+        "Pageouts": 15306
+      }
+    },
+    "D": {
+      "swap_start": "vm.swapusage: total = 15360.00M  used = 14213.69M  free = 1146.31M  (encrypted)\n",
+      "swap_end": "vm.swapusage: total = 17408.00M  used = 16442.88M  free = 965.12M  (encrypted)\n",
+      "page_size": 16384,
+      "counter_deltas": {
+        "Swapins": 584209,
+        "Swapouts": 742812,
+        "Pageouts": 17525
+      }
+    },
+    "C": {
+      "swap_start": "vm.swapusage: total = 18432.00M  used = 16916.38M  free = 1515.62M  (encrypted)\n",
+      "swap_end": "vm.swapusage: total = 19456.00M  used = 18084.94M  free = 1371.06M  (encrypted)\n",
+      "page_size": 16384,
+      "counter_deltas": {
+        "Swapins": 1285136,
+        "Swapouts": 1425899,
+        "Pageouts": 28641
+      }
+    }
+  },
+  "event_history_observations": {
+    "A": {
+      "files_before": 2,
+      "files_after": 13099,
+      "files_new_or_changed": 13097,
+      "bytes_before": 239,
+      "bytes_after": 795738735
+    },
+    "B": {
+      "files_before": 13102,
+      "files_after": 26255,
+      "files_new_or_changed": 13153,
+      "bytes_before": 795779079,
+      "bytes_after": 1610595091
+    },
+    "D": {
+      "files_before": 26275,
+      "files_after": 26275,
+      "files_new_or_changed": 0,
+      "bytes_before": 1614995451,
+      "bytes_after": 1614995451
+    },
+    "C": {
+      "files_before": 26275,
+      "files_after": 26275,
+      "files_new_or_changed": 0,
+      "bytes_before": 1614995451,
+      "bytes_after": 1614995451
+    }
+  }
+}

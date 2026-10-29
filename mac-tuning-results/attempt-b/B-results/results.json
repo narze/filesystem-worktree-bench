@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "failed",
+  "samples": [],
+  "metadata": {
+    "started_utc": "2026-10-29T06:07:15.007998+00:00",
+    "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+    "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+    "target": "/Volumes/FSBenchTuning-20261029b/fsbench-od8z_5h8",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 12,
+    "git_version": "git version 2.55.0",
+    "python_version": "3.14.6",
+    "workers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "runs": 10,
+    "warmups_per_worker_count": 1,
+    "cache": "warm / uncontrolled OS cache; no cache eviction",
+    "durability": "command completion; no fsync or cache flush",
+    "import_method": "auto",
+    "install_scripts": false,
+    "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+    "seed_store": "/Volumes/FSBenchTuning-20261029b/seed-store",
+    "free_bytes_before": 14246248448,
+    "mount": "Filesystem   512-blocks    Used Available Capacity  Mounted on\n/dev/disk3s7   31250000 3425296  27824704    11%    /Volumes/FSBenchTuning-20261029b",
+    "tracked_files": 10055,
+    "pnpm_version": "11.18.0",
+    "node_version": "v24.22.1",
+    "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+    "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+    "finished_utc": "2026-10-29T06:07:32.968175+00:00"
+  },
+  "error": "[('/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/72d6d63e160357084f271c9de03e31c8', '/Volumes/FSBenchTuning-20261029b/fsbench-od8z_5h8/pnpm-store/v11/projects/72d6d63e160357084f271c9de03e31c8', \"[Errno 2] No such file or directory: '/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/72d6d63e160357084f271c9de03e31c8'\"), ('/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/a255919d4f237c66e4455909b98fabe1', '/Volumes/FSBenchTuning-20261029b/fsbench-od8z_5h8/pnpm-store/v11/projects/a255919d4f237c66e4455909b98fabe1', \"[Errno 2] No such file or directory: '/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/a255919d4f237c66e4455909b98fabe1'\"), ('/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/f56b50c14f6fa910f0ddf8929184b8e4', '/Volumes/FSBenchTuning-20261029b/fsbench-od8z_5h8/pnpm-store/v11/projects/f56b50c14f6fa910f0ddf8929184b8e4', \"[Errno 2] No such file or directory: '/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/f56b50c14f6fa910f0ddf8929184b8e4'\"), ('/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/9ab558701e743aecd7ef7fe303b5c6c4', '/Volumes/FSBenchTuning-20261029b/fsbench-od8z_5h8/pnpm-store/v11/projects/9ab558701e743aecd7ef7fe303b5c6c4', \"[Errno 2] No such file or directory: '/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/9ab558701e743aecd7ef7fe303b5c6c4'\"), ('/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/c3317f122979e29e46f2da7dbbe93071', '/Volumes/FSBenchTuning-20261029b/fsbench-od8z_5h8/pnpm-store/v11/projects/c3317f122979e29e46f2da7dbbe93071', \"[Errno 2] No such file or directory: '/Volumes/FSBenchTuning-20261029b/seed-store/v11/projects/c3317f122979e29e46f2da7dbbe93071'\")]"
+}

@@ -1,0 +1,929 @@
+{
+  "generated_utc": "2026-10-29T08:34:15.415970+00:00",
+  "datasets": {
+    "desktop": {
+      "label": "onarchy \u00b7 Btrfs, original",
+      "study": "machines",
+      "machine": "desktop",
+      "source": "desktop-results/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-28T16:24:38.338272+00:00",
+        "source": "/home/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-z0swaiei",
+        "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+        "machine": "x86_64",
+        "cpu_count": 16,
+        "git_version": "git version 2.56.0",
+        "python_version": "3.14.8",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 359152558080,
+        "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home\",\n         \"source\": \"/dev/mapper/omarchy_root[/@home]\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home\"\n      }\n   ]\n}",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-28T16:32:42.674488+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 5.672847242967691,
+          "min": 5.568542650085874,
+          "max": 6.244179506087676,
+          "throughput": 0.17627839397343725,
+          "checkout": 0.7585109195206314,
+          "install": 2.6474136390024796,
+          "delete": 2.262674448953476
+        },
+        "2": {
+          "median": 7.5786774144507945,
+          "min": 7.43720408284571,
+          "max": 8.78458638000302,
+          "throughput": 0.2638984170495405,
+          "checkout": 0.9261810469906777,
+          "install": 3.7880267839645967,
+          "delete": 2.885499532974791
+        },
+        "3": {
+          "median": 11.832630012999289,
+          "min": 11.201680543017574,
+          "max": 13.528570220107213,
+          "throughput": 0.25353862769914925,
+          "checkout": 1.3615108819794841,
+          "install": 6.6339520630426705,
+          "delete": 3.9090344844735228
+        },
+        "4": {
+          "median": 16.753824208513834,
+          "min": 16.396192008047365,
+          "max": 20.159768689773045,
+          "throughput": 0.2387541655629988,
+          "checkout": 1.8356495560146868,
+          "install": 10.054264475998934,
+          "delete": 4.8892976570059545
+        }
+      }
+    },
+    "m4": {
+      "label": "MacBook M4 Pro \u00b7 APFS",
+      "study": "machines",
+      "machine": "m4",
+      "source": "mac-results/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [
+        {
+          "round": 9,
+          "workers": 3,
+          "error": "Command failed: ['git', '-c', 'core.hooksPath=/dev/null', '-c', 'core.fsmonitor=false', '--git-dir', PosixPath('/Users/narze/fsbench/eventpop-20261028-f7KaAQ/fsbench-na_5ebik/repo.git'), 'worktree', 'add', '--detach', PosixPath('/Users/narze/fsbench/eventpop-20261028-f7KaAQ/fsbench-na_5ebik/trees/worker-1'), '0e0499f42444f1e4b2c0a6d11fc8043b42be295a']\nPreparing worktree (detached HEAD 0e0499f424)\nfatal: failed to read /Users/narze/fsbench/eventpop-20261028-f7KaAQ/fsbench-na_5ebik/repo.git/worktrees/worker-2/commondir: Undefined error: 0\n",
+          "note": "Failed original checkout batch, without a complete timing sample"
+        }
+      ],
+      "metadata": {
+        "started_utc": "2026-10-28T16:45:31.717023+00:00",
+        "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/Users/narze/fsbench/eventpop-20261028-f7KaAQ/fsbench-na_5ebik",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "machine": "arm64",
+        "cpu_count": 12,
+        "git_version": "git version 2.55.0",
+        "python_version": "3.14.6",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 39864991744,
+        "mount": "Filesystem   512-blocks      Used Available Capacity  Mounted on\n/dev/disk3s5  965595304 800143384  77861312    92%    /System/Volumes/Data",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-28T17:06:22.071128+00:00",
+        "resumptions_utc": [
+          "2026-10-28T17:03:19.112871+00:00"
+        ]
+      },
+      "workers": {
+        "1": {
+          "median": 11.513956458504254,
+          "min": 10.780650333006633,
+          "max": 13.303173124993918,
+          "throughput": 0.08685651264523783,
+          "checkout": 1.5454073955042986,
+          "install": 5.180426958002499,
+          "delete": 4.66628785400826
+        },
+        "2": {
+          "median": 18.015736873996502,
+          "min": 17.001063417003024,
+          "max": 20.18187550001312,
+          "throughput": 0.11101605290323133,
+          "checkout": 1.535275875001389,
+          "install": 10.140025020991743,
+          "delete": 6.243966583504516
+        },
+        "3": {
+          "median": 26.345545165997464,
+          "min": 25.362335459009046,
+          "max": 28.704100625007413,
+          "throughput": 0.113875168853764,
+          "checkout": 1.8700672710037907,
+          "install": 16.138601041500806,
+          "delete": 8.47079439549998
+        },
+        "4": {
+          "median": 38.539437583007384,
+          "min": 36.05772591700952,
+          "max": 40.877441584016196,
+          "throughput": 0.10379030326476818,
+          "checkout": 2.179596270994807,
+          "install": 23.459706103996723,
+          "delete": 12.593689000001177
+        }
+      }
+    },
+    "thinkpad": {
+      "label": "ThinkPad L570 \u00b7 Btrfs",
+      "study": "machines",
+      "machine": "thinkpad",
+      "source": "thinkpad-results/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-28T17:20:18.784515+00:00",
+        "source": "/home/narze/fsbench/eventpop-20261029-bOAlze/source.git",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/home/narze/fsbench/eventpop-20261029-bOAlze/fsbench-5sncralq",
+        "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+        "machine": "x86_64",
+        "cpu_count": 4,
+        "git_version": "git version 2.56.0",
+        "python_version": "3.14.8",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 75131404288,
+        "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home\",\n         \"source\": \"/dev/mapper/root[/@home]\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,relatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home\"\n      }\n   ]\n}",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/home/narze/fsbench/eventpop-20261029-bOAlze/tools/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-28T17:41:27.479823+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 9.361877491523046,
+          "min": 8.791047083912417,
+          "max": 9.91082703601569,
+          "throughput": 0.10682840275728403,
+          "checkout": 1.590247421467211,
+          "install": 5.421870387974195,
+          "delete": 2.26854630804155
+        },
+        "2": {
+          "median": 19.773659240396228,
+          "min": 19.421041159075685,
+          "max": 22.51037342683412,
+          "throughput": 0.10114892225374186,
+          "checkout": 2.8605233829584904,
+          "install": 13.005701015004888,
+          "delete": 4.004444712481927
+        },
+        "3": {
+          "median": 33.14937332790578,
+          "min": 32.01519533805549,
+          "max": 35.88775110500865,
+          "throughput": 0.09049952763305452,
+          "checkout": 4.186290514422581,
+          "install": 22.045293660485186,
+          "delete": 7.077376728469972
+        },
+        "4": {
+          "median": 48.43636684201192,
+          "min": 47.479655392002314,
+          "max": 52.06955127895344,
+          "throughput": 0.08258258327883863,
+          "checkout": 6.276818338490557,
+          "install": 31.483655586547684,
+          "delete": 10.871404415986035
+        }
+      }
+    },
+    "debian": {
+      "label": "debianarze \u00b7 ext4 HDD",
+      "study": "machines",
+      "machine": "debian",
+      "source": "debianarze-results/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-28T17:20:38.528380+00:00",
+        "source": "/home/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/home/narze/fsbench/eventpop-20261029-mHK14W/fsbench-8gtr6k8y",
+        "platform": "Linux-6.12.90+deb13.1-amd64-x86_64-with-glibc2.41",
+        "machine": "x86_64",
+        "cpu_count": 4,
+        "git_version": "git version 2.47.3",
+        "python_version": "3.13.5",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 863984717824,
+        "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/\",\n         \"source\": \"/dev/sda2\",\n         \"fstype\": \"ext4\",\n         \"options\": \"rw,relatime,errors=remount-ro\"\n      }\n   ]\n}",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-28T18:03:30.506935+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 17.599816021858715,
+          "min": 9.125327317975461,
+          "max": 48.30843575997278,
+          "throughput": 0.057282922237138566,
+          "checkout": 1.5999565644888207,
+          "install": 13.894235801068135,
+          "delete": 1.3076852639205754
+        },
+        "2": {
+          "median": 33.38707719114609,
+          "min": 25.431481056148186,
+          "max": 42.56136300880462,
+          "throughput": 0.06011165040680198,
+          "checkout": 3.5273411800153553,
+          "install": 27.574297413113527,
+          "delete": 1.9280058614676818
+        },
+        "3": {
+          "median": 49.55381206795573,
+          "min": 39.09414820303209,
+          "max": 66.31798481591977,
+          "throughput": 0.060564297608924525,
+          "checkout": 12.63267513900064,
+          "install": 31.981821020133793,
+          "delete": 4.062819333863445
+        },
+        "4": {
+          "median": 90.95102890988346,
+          "min": 70.08940410194919,
+          "max": 187.61270989407785,
+          "throughput": 0.043979794988905904,
+          "checkout": 21.406599437003024,
+          "install": 61.36096025595907,
+          "delete": 6.139957841485739
+        }
+      }
+    },
+    "m1": {
+      "label": "MacBook M1 Pro \u00b7 APFS",
+      "study": "machines",
+      "machine": "m1",
+      "source": "m1-pro-results/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-28T17:38:44.718549+00:00",
+        "source": "/Users/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/Users/narze/fsbench/eventpop-20261029-UFaQ7q/fsbench-pbp49bvq",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "machine": "arm64",
+        "cpu_count": 10,
+        "git_version": "git version 2.55.0",
+        "python_version": "3.14.7",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 104510054400,
+        "mount": "Filesystem   512-blocks       Used Available Capacity  Mounted on\n/dev/disk3s5 1942700360 1649334464 204121200    89%    /System/Volumes/Data",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-28T17:58:44.675744+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 13.577605499420315,
+          "min": 12.244495207909495,
+          "max": 14.56233570817858,
+          "throughput": 0.07365763275061801,
+          "checkout": 2.044941416475922,
+          "install": 5.535880687646568,
+          "delete": 5.6967433334793895
+        },
+        "2": {
+          "median": 20.15186056215316,
+          "min": 18.135156749747694,
+          "max": 23.476529084611684,
+          "throughput": 0.09925062218955932,
+          "checkout": 2.5361443541478366,
+          "install": 9.381986416643485,
+          "delete": 8.257767479168251
+        },
+        "3": {
+          "median": 30.2290449377615,
+          "min": 29.022204416804016,
+          "max": 31.34938400052488,
+          "throughput": 0.0992423351948516,
+          "checkout": 3.223801937652752,
+          "install": 15.802240354008973,
+          "delete": 11.264311583712697
+        },
+        "4": {
+          "median": 43.31068781320937,
+          "min": 41.15171949984506,
+          "max": 50.76307183271274,
+          "throughput": 0.09235649491094883,
+          "checkout": 3.8686345419846475,
+          "install": 23.122274729656056,
+          "delete": 16.649173208279535
+        }
+      }
+    },
+    "native-btrfs": {
+      "label": "onarchy \u00b7 Btrfs, fresh control",
+      "study": "paired",
+      "machine": "desktop",
+      "source": "xfs-results/native-btrfs/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-29T03:55:16.419679+00:00",
+        "source": "/home/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/native-btrfs/fsbench-p73w377u",
+        "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+        "machine": "x86_64",
+        "cpu_count": 16,
+        "git_version": "git version 2.56.0",
+        "python_version": "3.14.8",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 311691788288,
+        "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home\",\n         \"source\": \"/dev/mapper/omarchy_root[/@home]\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home\"\n      }\n   ]\n}",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-29T04:22:39.814491+00:00",
+        "preflight_batches_excluded": 4,
+        "paired_experiment": true,
+        "case": "native-btrfs",
+        "measured_started_utc": "2026-10-29T03:56:46.977751+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 5.630242097424343,
+          "min": 5.547046705964021,
+          "max": 5.697487776051275,
+          "throughput": 0.1776122645092987,
+          "checkout": 0.762721809966024,
+          "install": 2.6219931839732453,
+          "delete": 2.225990533013828
+        },
+        "2": {
+          "median": 7.576197466987651,
+          "min": 7.512870852020569,
+          "max": 7.827301924000494,
+          "throughput": 0.2639863949339027,
+          "checkout": 0.903892029018607,
+          "install": 3.7837308995076455,
+          "delete": 2.8872605150099844
+        },
+        "3": {
+          "median": 11.388352916634176,
+          "min": 11.28752126195468,
+          "max": 11.825692943064496,
+          "throughput": 0.2634282530070311,
+          "checkout": 1.3749688945244998,
+          "install": 6.147303124540485,
+          "delete": 3.8712409479776397
+        },
+        "4": {
+          "median": 16.334056651510764,
+          "min": 16.172789282980375,
+          "max": 17.318736825021915,
+          "throughput": 0.24488728468696677,
+          "checkout": 1.850446811527945,
+          "install": 9.50599327054806,
+          "delete": 4.9853983575012535
+        }
+      }
+    },
+    "image-btrfs": {
+      "label": "onarchy \u00b7 Btrfs image",
+      "study": "paired",
+      "machine": "desktop",
+      "source": "xfs-results/image-btrfs/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-29T03:56:47.026074+00:00",
+        "source": "/home/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-btrfs/fsbench-zxh364zf",
+        "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+        "machine": "x86_64",
+        "cpu_count": 16,
+        "git_version": "git version 2.56.0",
+        "python_version": "3.14.8",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 16625172480,
+        "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-btrfs\",\n         \"source\": \"/dev/loop0\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=5,subvol=/\"\n      }\n   ]\n}",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-29T04:22:39.815712+00:00",
+        "preflight_batches_excluded": 4,
+        "paired_experiment": true,
+        "case": "image-btrfs",
+        "measured_started_utc": "2026-10-29T03:59:10.210875+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 5.453546836506575,
+          "min": 5.365483642090112,
+          "max": 5.632162773865275,
+          "throughput": 0.1833669042161169,
+          "checkout": 0.7399916955619119,
+          "install": 2.6111212215037085,
+          "delete": 2.0795978134847246
+        },
+        "2": {
+          "median": 7.907138741516974,
+          "min": 7.747560383984819,
+          "max": 10.706088892999105,
+          "throughput": 0.25293729234934137,
+          "checkout": 1.0331695330096409,
+          "install": 3.8561651295167394,
+          "delete": 3.009935356094502
+        },
+        "3": {
+          "median": 16.218150312895887,
+          "min": 12.173839385970496,
+          "max": 19.249949094024487,
+          "throughput": 0.18534143607037684,
+          "checkout": 5.426442370982841,
+          "install": 6.1269449185347185,
+          "delete": 4.657440157956444
+        },
+        "4": {
+          "median": 22.235843222530093,
+          "min": 20.44076413603034,
+          "max": 30.719198234961368,
+          "throughput": 0.17990268915038524,
+          "checkout": 6.595750881999265,
+          "install": 9.264034793479368,
+          "delete": 6.224891465506516
+        }
+      }
+    },
+    "image-xfs": {
+      "label": "onarchy \u00b7 XFS image",
+      "study": "paired",
+      "machine": "desktop",
+      "source": "xfs-results/image-xfs/results.json",
+      "successful_batches": 40,
+      "failed_attempts": [],
+      "metadata": {
+        "started_utc": "2026-10-29T03:59:10.259626+00:00",
+        "source": "/home/narze/Code/github.com/eventpop/eventpop",
+        "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+        "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-xfs/fsbench-5qyy3g4m",
+        "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+        "machine": "x86_64",
+        "cpu_count": 16,
+        "git_version": "git version 2.56.0",
+        "python_version": "3.14.8",
+        "workers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "runs": 10,
+        "warmups_per_worker_count": 1,
+        "cache": "warm / uncontrolled OS cache; no cache eviction",
+        "durability": "command completion; no fsync or cache flush",
+        "import_method": "auto",
+        "install_scripts": false,
+        "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+        "seed_store": null,
+        "free_bytes_before": 16751112192,
+        "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-xfs\",\n         \"source\": \"/dev/loop1\",\n         \"fstype\": \"xfs\",\n         \"options\": \"rw,noatime,inode64,logbufs=8,logbsize=32k,noquota\"\n      }\n   ]\n}",
+        "tracked_files": 10055,
+        "pnpm_version": "11.18.0",
+        "node_version": "v24.22.1",
+        "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+        "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+        "finished_utc": "2026-10-29T04:22:39.816953+00:00",
+        "preflight_batches_excluded": 4,
+        "paired_experiment": true,
+        "case": "image-xfs",
+        "measured_started_utc": "2026-10-29T04:00:38.252817+00:00"
+      },
+      "workers": {
+        "1": {
+          "median": 6.155837620026432,
+          "min": 6.057264723000117,
+          "max": 6.292571010068059,
+          "throughput": 0.162447440762301,
+          "checkout": 0.8130695624859072,
+          "install": 3.0949074894888327,
+          "delete": 2.2124784710467793
+        },
+        "2": {
+          "median": 7.631077170488425,
+          "min": 7.455864661140367,
+          "max": 8.035059484071098,
+          "throughput": 0.2620883427450491,
+          "checkout": 1.1438740349840373,
+          "install": 3.760141257022042,
+          "delete": 2.7263625470222905
+        },
+        "3": {
+          "median": 9.857270070002414,
+          "min": 9.681458611856215,
+          "max": 15.219197896076366,
+          "throughput": 0.30434425931135356,
+          "checkout": 1.6415764929843135,
+          "install": 4.727085313992575,
+          "delete": 3.4833998474641703
+        },
+        "4": {
+          "median": 12.945111445034854,
+          "min": 12.676070517860353,
+          "max": 13.082204274018295,
+          "throughput": 0.3089975989791498,
+          "checkout": 2.072433896479197,
+          "install": 5.9118186010746285,
+          "delete": 4.893459300510585
+        }
+      }
+    }
+  },
+  "successful_batches": 320,
+  "measured_workflows": 800,
+  "failed_attempts": 1,
+  "paired_onarchy": [
+    {
+      "workers": 1,
+      "native-btrfs": {
+        "median": 5.630242097424343,
+        "min": 5.547046705964021,
+        "max": 5.697487776051275,
+        "throughput": 0.1776122645092987,
+        "checkout": 0.762721809966024,
+        "install": 2.6219931839732453,
+        "delete": 2.225990533013828
+      },
+      "image-btrfs": {
+        "median": 5.453546836506575,
+        "min": 5.365483642090112,
+        "max": 5.632162773865275,
+        "throughput": 0.1833669042161169,
+        "checkout": 0.7399916955619119,
+        "install": 2.6111212215037085,
+        "delete": 2.0795978134847246
+      },
+      "image-xfs": {
+        "median": 6.155837620026432,
+        "min": 6.057264723000117,
+        "max": 6.292571010068059,
+        "throughput": 0.162447440762301,
+        "checkout": 0.8130695624859072,
+        "install": 3.0949074894888327,
+        "delete": 2.2124784710467793
+      },
+      "paired_xfs_over_btrfs": 1.125831954491849,
+      "xfs_faster_pairs": 0
+    },
+    {
+      "workers": 2,
+      "native-btrfs": {
+        "median": 7.576197466987651,
+        "min": 7.512870852020569,
+        "max": 7.827301924000494,
+        "throughput": 0.2639863949339027,
+        "checkout": 0.903892029018607,
+        "install": 3.7837308995076455,
+        "delete": 2.8872605150099844
+      },
+      "image-btrfs": {
+        "median": 7.907138741516974,
+        "min": 7.747560383984819,
+        "max": 10.706088892999105,
+        "throughput": 0.25293729234934137,
+        "checkout": 1.0331695330096409,
+        "install": 3.8561651295167394,
+        "delete": 3.009935356094502
+      },
+      "image-xfs": {
+        "median": 7.631077170488425,
+        "min": 7.455864661140367,
+        "max": 8.035059484071098,
+        "throughput": 0.2620883427450491,
+        "checkout": 1.1438740349840373,
+        "install": 3.760141257022042,
+        "delete": 2.7263625470222905
+      },
+      "paired_xfs_over_btrfs": 0.9496895677451901,
+      "xfs_faster_pairs": 9
+    },
+    {
+      "workers": 3,
+      "native-btrfs": {
+        "median": 11.388352916634176,
+        "min": 11.28752126195468,
+        "max": 11.825692943064496,
+        "throughput": 0.2634282530070311,
+        "checkout": 1.3749688945244998,
+        "install": 6.147303124540485,
+        "delete": 3.8712409479776397
+      },
+      "image-btrfs": {
+        "median": 16.218150312895887,
+        "min": 12.173839385970496,
+        "max": 19.249949094024487,
+        "throughput": 0.18534143607037684,
+        "checkout": 5.426442370982841,
+        "install": 6.1269449185347185,
+        "delete": 4.657440157956444
+      },
+      "image-xfs": {
+        "median": 9.857270070002414,
+        "min": 9.681458611856215,
+        "max": 15.219197896076366,
+        "throughput": 0.30434425931135356,
+        "checkout": 1.6415764929843135,
+        "install": 4.727085313992575,
+        "delete": 3.4833998474641703
+      },
+      "paired_xfs_over_btrfs": 0.6389042106087699,
+      "xfs_faster_pairs": 10
+    },
+    {
+      "workers": 4,
+      "native-btrfs": {
+        "median": 16.334056651510764,
+        "min": 16.172789282980375,
+        "max": 17.318736825021915,
+        "throughput": 0.24488728468696677,
+        "checkout": 1.850446811527945,
+        "install": 9.50599327054806,
+        "delete": 4.9853983575012535
+      },
+      "image-btrfs": {
+        "median": 22.235843222530093,
+        "min": 20.44076413603034,
+        "max": 30.719198234961368,
+        "throughput": 0.17990268915038524,
+        "checkout": 6.595750881999265,
+        "install": 9.264034793479368,
+        "delete": 6.224891465506516
+      },
+      "image-xfs": {
+        "median": 12.945111445034854,
+        "min": 12.676070517860353,
+        "max": 13.082204274018295,
+        "throughput": 0.3089975989791498,
+        "checkout": 2.072433896479197,
+        "install": 5.9118186010746285,
+        "delete": 4.893459300510585
+      },
+      "paired_xfs_over_btrfs": 0.5755907938087843,
+      "xfs_faster_pairs": 10
+    }
+  ],
+  "machines": {
+    "desktop": {
+      "model": "Custom desktop / ROG STRIX B550-I GAMING",
+      "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+      "cores": "8 cores / 16 threads",
+      "memory": "31.2 GiB OS-visible",
+      "graphics": "NVIDIA Corporation GB206 [GeForce RTX 5060 Ti] (rev a1) / 8151 MiB reported VRAM / driver 615.78.08",
+      "os": "Omarchy",
+      "kernel": "7.2.8-9-omarchy",
+      "filesystem": "btrfs",
+      "mount_options": "rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home",
+      "power": "CPU governor: performance",
+      "drive": {
+        "model": "Samsung SSD 960 EVO 1TB",
+        "size_bytes": 1000204886016,
+        "interface": "nvme",
+        "medium": "SSD",
+        "encryption": "LUKS / dm-crypt"
+      },
+      "free_at_benchmark_gib": 334.4868850708008,
+      "inventory_utc": "2026-10-28T18:11:53.772287+00:00"
+    },
+    "m4": {
+      "model": "MacBook Pro / Mac16,8",
+      "cpu": "Apple M4 Pro",
+      "cores": "12 CPU cores",
+      "memory": "24 GiB unified memory",
+      "graphics": "Apple M4 Pro / 16 GPU cores",
+      "os": "macOS 26.6.2",
+      "kernel": "25.6.0",
+      "filesystem": "apfs",
+      "mount_options": "Apple native mount settings",
+      "power": "AC power",
+      "drive": {
+        "model": "APPLE SSD AP0512Z",
+        "size_bytes": 500277792768,
+        "interface": "NVMe / Apple Fabric",
+        "medium": "SSD",
+        "encryption": "FileVault / APFS"
+      },
+      "free_at_benchmark_gib": 37.127166748046875,
+      "inventory_utc": "2026-10-28T18:15:24.221953+00:00"
+    },
+    "thinkpad": {
+      "model": "ThinkPad L570 / 20J9S1NR00",
+      "cpu": "Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz",
+      "cores": "2 cores / 4 threads",
+      "memory": "7.6 GiB OS-visible",
+      "graphics": "Intel Corporation Kaby Lake-U GT2 [HD Graphics 620] (rev 02)",
+      "os": "Omarchy",
+      "kernel": "7.2.8-9-omarchy",
+      "filesystem": "btrfs",
+      "mount_options": "rw,relatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home",
+      "power": "AC power / CPU governor: powersave",
+      "drive": {
+        "model": "SAMSUNG MZ7LN128HAHQ-00007",
+        "size_bytes": 128035676160,
+        "interface": "sata",
+        "medium": "SSD",
+        "encryption": "LUKS / dm-crypt"
+      },
+      "free_at_benchmark_gib": 69.97157287597656,
+      "inventory_utc": "2026-10-28T18:11:53.970415+00:00"
+    },
+    "debian": {
+      "model": "OptiPlex 3050",
+      "cpu": "Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz",
+      "cores": "4 cores / 4 threads",
+      "memory": "7.6 GiB OS-visible",
+      "graphics": "Intel Corporation HD Graphics 630 (rev 04)",
+      "os": "Debian GNU/Linux 13 (trixie)",
+      "kernel": "6.12.90+deb13.1-amd64",
+      "filesystem": "ext4",
+      "mount_options": "rw,relatime,errors=remount-ro",
+      "power": "CPU governor: powersave",
+      "drive": {
+        "model": "HGST HTS721010A9E630",
+        "size_bytes": 1000204886016,
+        "interface": "sata",
+        "medium": "HDD",
+        "encryption": "No block-encryption layer shown"
+      },
+      "free_at_benchmark_gib": 804.6484718322754,
+      "inventory_utc": "2026-10-28T18:11:54.158054+00:00"
+    },
+    "m1": {
+      "model": "MacBook Pro / MacBookPro18,3",
+      "cpu": "Apple M1 Pro",
+      "cores": "10 CPU cores",
+      "memory": "32 GiB unified memory",
+      "graphics": "Apple M1 Pro / 16 GPU cores",
+      "os": "macOS 26.6.2",
+      "kernel": "25.6.0",
+      "filesystem": "apfs",
+      "mount_options": "Apple native mount settings",
+      "power": "AC power",
+      "drive": {
+        "model": "APPLE SSD AP1024R",
+        "size_bytes": 1000555581440,
+        "interface": "NVMe / Apple Fabric",
+        "medium": "SSD",
+        "encryption": "FileVault / APFS"
+      },
+      "free_at_benchmark_gib": 97.33257293701172,
+      "inventory_utc": "2026-10-28T18:13:29.125919+00:00"
+    }
+  },
+  "cleanup_receipts": [
+    {
+      "label": "Ryzen desktop",
+      "receipt": "desktop-results/cleanup.json"
+    },
+    {
+      "label": "MacBook M4 Pro",
+      "receipt": "mac-results/cleanup.json"
+    },
+    {
+      "label": "ThinkPad L570",
+      "receipt": "thinkpad-results/cleanup.json"
+    },
+    {
+      "label": "Dell / debianarze",
+      "receipt": "debianarze-results/cleanup.json"
+    },
+    {
+      "label": "MacBook M1 Pro",
+      "receipt": "m1-pro-results/cleanup.json"
+    },
+    {
+      "label": "Corrected XFS experiment",
+      "receipt": "xfs-results/cleanup.json"
+    },
+    {
+      "label": "Excluded sparse-image pilot",
+      "receipt": "xfs-pilot-results/cleanup.json"
+    }
+  ]
+}

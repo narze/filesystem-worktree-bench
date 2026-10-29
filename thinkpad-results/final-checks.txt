@@ -1,0 +1,15 @@
+CHECK: git --git-dir fsbench-5sncralq/repo.git worktree list --porcelain
+worktree /home/narze/fsbench/eventpop-20261029-bOAlze/fsbench-5sncralq/repo.git
+bare
+
+
+CHECK: df -h .
+Filesystem        Size  Used Avail Use% Mounted on
+/dev/mapper/root  118G   47G   70G  40% /home
+
+CHECK: du -sh .
+1.6G	.
+
+CHECK: git --git-dir source.git rev-parse HEAD
+0e0499f42444f1e4b2c0a6d11fc8043b42be295a
+

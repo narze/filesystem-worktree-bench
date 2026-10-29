@@ -1,0 +1,52 @@
+{
+  "verified_utc": "2026-10-29T04:58:13.062692+00:00",
+  "onarchy": {
+    "scratch_paths": {
+      "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-z0swaiei": false,
+      "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo": false,
+      "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh": false
+    },
+    "remaining_experiment_mounts": [],
+    "active_loop_backing_files": {},
+    "open_file_descriptors_for_removed_scratch": [],
+    "disk_bytes_before_xfs_experiment": {
+      "total": 497014538240,
+      "used": 149079982080,
+      "free": 346051608576
+    },
+    "disk_bytes_now": {
+      "total": 497014538240,
+      "used": 148985548800,
+      "free": 346155331584
+    },
+    "free_space_delta_bytes": 103723008,
+    "extra_workspace_scratch_directories": [],
+    "retained_workspace_bytes": 2711552
+  },
+  "other_machines": {
+    "thinkpad": {
+      "fresh_recheck": "unavailable",
+      "last_verified_cleanup_utc": "2026-10-28T18:13:31.535924+00:00",
+      "last_verified_scratch_exists": false,
+      "reason": "narze@narze-thinkpad: Permission denied (publickey)."
+    },
+    "debian": {
+      "fresh_recheck": "unavailable",
+      "last_verified_cleanup_utc": "2026-10-28T18:13:31.940759+00:00",
+      "last_verified_scratch_exists": false,
+      "reason": "no such identity: /home/narze/.ssh/id_ed25519: No such file or directory\nnarze@[REDACTED-ADDRESS]: Permission denied (publickey,password)."
+    },
+    "m1": {
+      "fresh_recheck": "unavailable",
+      "last_verified_cleanup_utc": "2026-10-28T18:13:35.936099+00:00",
+      "last_verified_scratch_exists": false,
+      "reason": "narze@narze-m1-pro: Permission denied (publickey,password,keyboard-interactive)."
+    },
+    "m4": {
+      "fresh_recheck": "unavailable",
+      "last_verified_cleanup_utc": "2026-10-28T18:15:31.267513+00:00",
+      "last_verified_scratch_exists": false,
+      "reason": "narze@[REDACTED-ADDRESS]: Permission denied (publickey,password,keyboard-interactive)."
+    }
+  }
+}

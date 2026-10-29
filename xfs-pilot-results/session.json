@@ -1,0 +1,32 @@
+{
+  "root": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh",
+  "started_utc": "2026-10-29T03:47:30.766265+00:00",
+  "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+  "image_size_bytes": 17179869184,
+  "loops": {
+    "image-btrfs": {
+      "device": "/dev/loop0",
+      "image": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/images/btrfs.img",
+      "attributes": "---------------C------ /home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/images/btrfs.img"
+    },
+    "image-xfs": {
+      "device": "/dev/loop1",
+      "image": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/images/xfs.img",
+      "attributes": "---------------C------ /home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/images/xfs.img"
+    }
+  },
+  "mounted": [],
+  "targets": {
+    "native-btrfs": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/native-btrfs",
+    "image-btrfs": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-btrfs",
+    "image-xfs": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-xfs"
+  },
+  "protocol": "Paired rounds; worker order seed 42, case order seed 73; original batch code",
+  "scope": "Image-backed XFS and Btrfs over NOCOW files on native Btrfs; not bare-metal filesystem isolation",
+  "tool_versions": {
+    "xfsprogs": "mkfs.xfs version 7.2.0",
+    "btrfs_progs": "mkfs.btrfs, part of btrfs-progs v7.1\n-EXPERIMENTAL -INJECT -STATIC +LZO +ZSTD +UDEV +FSVERITY +ZONED CRYPTO=libgcrypt"
+  },
+  "status": "failed",
+  "error": ""
+}

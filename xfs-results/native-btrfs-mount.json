@@ -1,0 +1,10 @@
+{
+  "filesystems": [
+    {
+      "target": "/home",
+      "source": "/dev/mapper/omarchy_root[/@home]",
+      "fstype": "btrfs",
+      "options": "rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home"
+    }
+  ]
+}

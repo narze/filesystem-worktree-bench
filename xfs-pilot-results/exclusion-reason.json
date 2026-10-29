@@ -1,0 +1,7 @@
+{
+  "status": "excluded pilot",
+  "reason": "mkfs.xfs recreated a sparse backing image after initial allocation; unequal outer allocation detected",
+  "btrfs_allocated_gib": 16.0,
+  "xfs_allocated_gib_observed": 0.06282424926757812,
+  "cleanup_verified": true
+}
