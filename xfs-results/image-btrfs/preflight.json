@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "samples": [
+    {
+      "workers": 3,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 9.185374545981176,
+        "worker_seconds": [
+          9.174723132979125,
+          9.185205247951671,
+          9.181376877008006
+        ]
+      },
+      "install": {
+        "batch_seconds": 5.991748719010502,
+        "worker_seconds": [
+          5.979690550011583,
+          5.991618624073453,
+          5.985904897912405
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.655264158034697,
+        "worker_seconds": [
+          4.654778535012156,
+          4.647552343085408,
+          4.655200838926248
+        ]
+      },
+      "total_seconds": 19.832387423026375
+    },
+    {
+      "workers": 2,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 10.08371157408692,
+        "worker_seconds": [
+          10.080142301041633,
+          10.083610535017215
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.814353374997154,
+        "worker_seconds": [
+          3.814308369997889,
+          3.789965927018784
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.0045119129354134,
+        "worker_seconds": [
+          2.9803670899709687,
+          3.004461767966859
+        ]
+      },
+      "total_seconds": 16.902576862019487
+    },
+    {
+      "workers": 4,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 8.98529140802566,
+        "worker_seconds": [
+          5.774477232946083,
+          7.513670907006599,
+          8.985226887045428,
+          7.363723268965259
+        ]
+      },
+      "install": {
+        "batch_seconds": 8.94506687799003,
+        "worker_seconds": [
+          8.939070821041241,
+          8.944704766967334,
+          8.915658356039785,
+          8.909230816992931
+        ]
+      },
+      "delete": {
+        "batch_seconds": 6.335838945000432,
+        "worker_seconds": [
+          6.3357844109414145,
+          6.313605176052079,
+          6.330411246046424,
+          6.316548262024298
+        ]
+      },
+      "total_seconds": 24.266197231016122
+    },
+    {
+      "workers": 1,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 0.7364447809522972,
+        "worker_seconds": [
+          0.7363960690563545
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.649927780032158,
+        "worker_seconds": [
+          2.649877375923097
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.0671417909907177,
+        "worker_seconds": [
+          2.0670767290284857
+        ]
+      },
+      "total_seconds": 5.453514351975173
+    }
+  ],
+  "metadata": {
+    "started_utc": "2026-10-29T03:56:47.026074+00:00",
+    "source": "/home/narze/Code/github.com/eventpop/eventpop",
+    "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+    "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-btrfs/fsbench-zxh364zf",
+    "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+    "machine": "x86_64",
+    "cpu_count": 16,
+    "git_version": "git version 2.56.0",
+    "python_version": "3.14.8",
+    "workers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "runs": 1,
+    "warmups_per_worker_count": 1,
+    "cache": "warm / uncontrolled OS cache; no cache eviction",
+    "durability": "command completion; no fsync or cache flush",
+    "import_method": "auto",
+    "install_scripts": false,
+    "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+    "seed_store": null,
+    "free_bytes_before": 16625172480,
+    "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/image-btrfs\",\n         \"source\": \"/dev/loop0\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=5,subvol=/\"\n      }\n   ]\n}",
+    "tracked_files": 10055,
+    "pnpm_version": "11.18.0",
+    "node_version": "v24.22.1",
+    "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+    "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+    "finished_utc": "2026-10-29T03:59:10.201811+00:00"
+  }
+}

@@ -1,0 +1,16 @@
+  PID  %CPU COMM
+  346 246.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+87356 155.3 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+87358 150.5 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+87360 149.4 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+87359 140.3 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+87480  53.8 /usr/bin/top
+  989  24.8 top
+41967  20.5 /Applications/T3 Code (Beta).app/Contents/Frameworks/T3 Code (Beta) Helper (Renderer).app/Contents/MacOS/T3 Code (Beta) Helper (Renderer)
+43822  19.0 /Applications/Figma.app/Contents/MacOS/Figma
+76171  18.6 /Applications/OrbStack.app/Contents/Frameworks/OrbStack Helper.app/Contents/MacOS/OrbStack Helper
+  687  13.1 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  415  12.7 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+14884  10.7 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+  371   8.9 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+41884   7.2 /Applications/T3 Code (Beta).app/Contents/Frameworks/T3 Code (Beta) Helper.app/Contents/MacOS/T3 Code (Beta) Helper

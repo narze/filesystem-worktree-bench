@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-10-28T18:13:35.936099+00:00",
+  "removed_path": "/Users/narze/fsbench/eventpop-20261029-UFaQ7q",
+  "result_sha256": "f874db108867d35deaaaa95aa0f7d5a8f027036d3e0f0cd110bd1e3b9967a791",
+  "approx_allocated_bytes_removed": 1079648256,
+  "exists_after": false,
+  "filesystem_bytes_before": {
+    "total": 994662584320,
+    "used": 895304736768,
+    "free": 99357847552
+  },
+  "filesystem_bytes_after": {
+    "total": 994662584320,
+    "used": 894185295872,
+    "free": 100477288448
+  }
+}

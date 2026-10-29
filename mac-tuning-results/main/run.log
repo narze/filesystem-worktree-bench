@@ -1,0 +1,224 @@
+Condition A: Spotlight=True, persistent log=True; settling 60s
+Settling...
+Settling...
+Settling...
+Settling...
+Results: /Volumes/FSBenchTuning-20261029c/fsbench-x0rwbz26
+Preparing dedicated dependency store (outside timings)...
+Warmup 1: 1 workers
+Warmup 1: 2 workers
+Warmup 1: 3 workers
+Warmup 1: 4 workers
+Round 1/10, 3 workers: 37.391s batch
+Round 1/10, 2 workers: 24.669s batch
+Round 1/10, 4 workers: 57.773s batch
+Round 1/10, 1 workers: 12.519s batch
+Round 2/10, 4 workers: 56.334s batch
+Round 2/10, 3 workers: 40.085s batch
+Round 2/10, 1 workers: 12.471s batch
+Round 2/10, 2 workers: 24.604s batch
+Round 3/10, 2 workers: 24.896s batch
+Round 3/10, 4 workers: 57.394s batch
+Round 3/10, 3 workers: 39.273s batch
+Round 3/10, 1 workers: 12.681s batch
+Round 4/10, 2 workers: 24.871s batch
+Round 4/10, 3 workers: 38.004s batch
+Round 4/10, 1 workers: 12.753s batch
+Round 4/10, 4 workers: 55.204s batch
+Round 5/10, 2 workers: 25.247s batch
+Round 5/10, 3 workers: 37.693s batch
+Round 5/10, 4 workers: 56.838s batch
+Round 5/10, 1 workers: 12.870s batch
+Round 6/10, 2 workers: 25.056s batch
+Round 6/10, 4 workers: 55.017s batch
+Round 6/10, 3 workers: 38.768s batch
+Round 6/10, 1 workers: 12.223s batch
+Round 7/10, 3 workers: 38.587s batch
+Round 7/10, 2 workers: 26.731s batch
+Round 7/10, 1 workers: 12.217s batch
+Round 7/10, 4 workers: 54.930s batch
+Round 8/10, 2 workers: 25.511s batch
+Round 8/10, 4 workers: 54.145s batch
+Round 8/10, 1 workers: 13.076s batch
+Round 8/10, 3 workers: 38.987s batch
+Round 9/10, 1 workers: 12.863s batch
+Round 9/10, 3 workers: 38.839s batch
+Round 9/10, 2 workers: 26.021s batch
+Round 9/10, 4 workers: 58.658s batch
+Round 10/10, 3 workers: 39.017s batch
+Round 10/10, 4 workers: 56.755s batch
+Round 10/10, 1 workers: 12.917s batch
+Round 10/10, 2 workers: 24.704s batch
+1 workers: median 12.717s, range 12.217-13.076s
+2 workers: median 24.976s, range 24.604-26.731s
+3 workers: median 38.804s, range 37.391-40.085s
+4 workers: median 56.544s, range 54.145-58.658s
+Condition B: Spotlight=False, persistent log=True; settling 60s
+Settling...
+Settling...
+Settling...
+Settling...
+Results: /Volumes/FSBenchTuning-20261029c/fsbench-8pieeh8f
+Copying seed store (outside timings)...
+Preparing dedicated dependency store (outside timings)...
+Warmup 1: 1 workers
+Warmup 1: 2 workers
+Warmup 1: 3 workers
+Warmup 1: 4 workers
+Round 1/10, 3 workers: 40.161s batch
+Round 1/10, 2 workers: 26.392s batch
+Round 1/10, 4 workers: 57.185s batch
+Round 1/10, 1 workers: 13.393s batch
+Round 2/10, 4 workers: 56.319s batch
+Round 2/10, 3 workers: 40.000s batch
+Round 2/10, 1 workers: 13.103s batch
+Round 2/10, 2 workers: 26.023s batch
+Round 3/10, 2 workers: 25.036s batch
+Round 3/10, 4 workers: 58.488s batch
+Round 3/10, 3 workers: 38.974s batch
+Round 3/10, 1 workers: 13.100s batch
+Round 4/10, 2 workers: 25.997s batch
+Round 4/10, 3 workers: 39.335s batch
+Round 4/10, 1 workers: 13.123s batch
+Round 4/10, 4 workers: 54.965s batch
+Round 5/10, 2 workers: 25.908s batch
+Round 5/10, 3 workers: 37.277s batch
+Round 5/10, 4 workers: 54.065s batch
+Round 5/10, 1 workers: 14.538s batch
+Round 6/10, 2 workers: 24.245s batch
+Round 6/10, 4 workers: 48.125s batch
+Round 6/10, 3 workers: 36.840s batch
+Round 6/10, 1 workers: 13.486s batch
+Round 7/10, 3 workers: 37.096s batch
+Round 7/10, 2 workers: 25.015s batch
+Round 7/10, 1 workers: 13.269s batch
+Round 7/10, 4 workers: 55.561s batch
+Round 8/10, 2 workers: 25.834s batch
+Round 8/10, 4 workers: 50.786s batch
+Round 8/10, 1 workers: 13.595s batch
+Round 8/10, 3 workers: 35.403s batch
+Round 9/10, 1 workers: 15.810s batch
+Round 9/10, 3 workers: 37.671s batch
+Round 9/10, 2 workers: 25.383s batch
+Round 9/10, 4 workers: 49.743s batch
+Round 10/10, 3 workers: 37.480s batch
+Round 10/10, 4 workers: 50.794s batch
+Round 10/10, 1 workers: 13.366s batch
+Round 10/10, 2 workers: 24.944s batch
+1 workers: median 13.380s, range 13.100-15.810s
+2 workers: median 25.609s, range 24.245-26.392s
+3 workers: median 37.576s, range 35.403-40.161s
+4 workers: median 54.515s, range 48.125-58.488s
+Condition D: Spotlight=False, persistent log=False; settling 60s
+Settling...
+Settling...
+Settling...
+Settling...
+Results: /Volumes/FSBenchTuning-20261029c/fsbench-scnveons
+Copying seed store (outside timings)...
+Preparing dedicated dependency store (outside timings)...
+Warmup 1: 1 workers
+Warmup 1: 2 workers
+Warmup 1: 3 workers
+Warmup 1: 4 workers
+Round 1/10, 3 workers: 37.797s batch
+Round 1/10, 2 workers: 26.826s batch
+Round 1/10, 4 workers: 52.951s batch
+Round 1/10, 1 workers: 13.036s batch
+Round 2/10, 4 workers: 52.264s batch
+Round 2/10, 3 workers: 37.506s batch
+Round 2/10, 1 workers: 13.987s batch
+Round 2/10, 2 workers: 26.146s batch
+Round 3/10, 2 workers: 26.361s batch
+Round 3/10, 4 workers: 54.301s batch
+Round 3/10, 3 workers: 37.865s batch
+Round 3/10, 1 workers: 13.313s batch
+Round 4/10, 2 workers: 25.024s batch
+Round 4/10, 3 workers: 41.006s batch
+Round 4/10, 1 workers: 15.463s batch
+Round 4/10, 4 workers: 53.829s batch
+Round 5/10, 2 workers: 26.088s batch
+Round 5/10, 3 workers: 36.833s batch
+Round 5/10, 4 workers: 52.129s batch
+Round 5/10, 1 workers: 13.995s batch
+Round 6/10, 2 workers: 25.134s batch
+Round 6/10, 4 workers: 51.781s batch
+Round 6/10, 3 workers: 36.906s batch
+Round 6/10, 1 workers: 15.516s batch
+Round 7/10, 3 workers: 36.136s batch
+Round 7/10, 2 workers: 25.048s batch
+Round 7/10, 1 workers: 12.790s batch
+Round 7/10, 4 workers: 53.548s batch
+Round 8/10, 2 workers: 26.722s batch
+Round 8/10, 4 workers: 51.513s batch
+Round 8/10, 1 workers: 13.677s batch
+Round 8/10, 3 workers: 37.027s batch
+Round 9/10, 1 workers: 13.770s batch
+Round 9/10, 3 workers: 37.927s batch
+Round 9/10, 2 workers: 25.000s batch
+Round 9/10, 4 workers: 53.469s batch
+Round 10/10, 3 workers: 37.339s batch
+Round 10/10, 4 workers: 52.027s batch
+Round 10/10, 1 workers: 13.243s batch
+Round 10/10, 2 workers: 24.555s batch
+1 workers: median 13.724s, range 12.790-15.516s
+2 workers: median 25.611s, range 24.555-26.826s
+3 workers: median 37.422s, range 36.136-41.006s
+4 workers: median 52.607s, range 51.513-54.301s
+Condition C: Spotlight=True, persistent log=False; settling 60s
+Settling...
+Settling...
+Settling...
+Settling...
+Results: /Volumes/FSBenchTuning-20261029c/fsbench-6ftpqqcu
+Copying seed store (outside timings)...
+Preparing dedicated dependency store (outside timings)...
+Warmup 1: 1 workers
+Warmup 1: 2 workers
+Warmup 1: 3 workers
+Warmup 1: 4 workers
+Round 1/10, 3 workers: 37.377s batch
+Round 1/10, 2 workers: 26.038s batch
+Round 1/10, 4 workers: 56.592s batch
+Round 1/10, 1 workers: 14.508s batch
+Round 2/10, 4 workers: 53.475s batch
+Round 2/10, 3 workers: 39.540s batch
+Round 2/10, 1 workers: 13.660s batch
+Round 2/10, 2 workers: 27.334s batch
+Round 3/10, 2 workers: 23.526s batch
+Round 3/10, 4 workers: 55.220s batch
+Round 3/10, 3 workers: 39.284s batch
+Round 3/10, 1 workers: 13.582s batch
+Round 4/10, 2 workers: 26.514s batch
+Round 4/10, 3 workers: 39.999s batch
+Round 4/10, 1 workers: 14.801s batch
+Round 4/10, 4 workers: 56.241s batch
+Round 5/10, 2 workers: 24.758s batch
+Round 5/10, 3 workers: 38.351s batch
+Round 5/10, 4 workers: 57.072s batch
+Round 5/10, 1 workers: 15.219s batch
+Round 6/10, 2 workers: 25.015s batch
+Round 6/10, 4 workers: 52.991s batch
+Round 6/10, 3 workers: 39.766s batch
+Round 6/10, 1 workers: 14.738s batch
+Round 7/10, 3 workers: 38.195s batch
+Round 7/10, 2 workers: 25.309s batch
+Round 7/10, 1 workers: 13.138s batch
+Round 7/10, 4 workers: 51.243s batch
+Round 8/10, 2 workers: 26.130s batch
+Round 8/10, 4 workers: 54.179s batch
+Round 8/10, 1 workers: 14.020s batch
+Round 8/10, 3 workers: 37.766s batch
+Round 9/10, 1 workers: 12.837s batch
+Round 9/10, 3 workers: 40.139s batch
+Round 9/10, 2 workers: 28.107s batch
+Round 9/10, 4 workers: 53.986s batch
+Round 10/10, 3 workers: 38.827s batch
+Round 10/10, 4 workers: 52.010s batch
+Round 10/10, 1 workers: 13.638s batch
+Round 10/10, 2 workers: 28.491s batch
+1 workers: median 13.840s, range 12.837-15.219s
+2 workers: median 26.084s, range 23.526-28.491s
+3 workers: median 39.055s, range 37.377-40.139s
+4 workers: median 54.082s, range 51.243-57.072s
+{"status": "complete", "free_after": 37050400768, "volume_deleted": true}

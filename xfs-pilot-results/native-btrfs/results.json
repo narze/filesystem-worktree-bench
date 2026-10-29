@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "status": "failed",
+  "samples": [
+    {
+      "workers": 3,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 1.3598453539889306,
+        "worker_seconds": [
+          1.3596646640216932,
+          1.359672017977573,
+          1.3121692639542744
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.137049834011123,
+        "worker_seconds": [
+          6.115974300075322,
+          6.137009909027256,
+          6.112701594014652
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.826096329954453,
+        "worker_seconds": [
+          3.7802518639946356,
+          3.8260557330213487,
+          3.7810368810314685
+        ]
+      },
+      "total_seconds": 11.322991517954506
+    },
+    {
+      "workers": 2,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 0.9178825769340619,
+        "worker_seconds": [
+          0.9169631670229137,
+          0.9177788819652051
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.919085773988627,
+        "worker_seconds": [
+          3.9171793900895864,
+          3.9189831119729206
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.8258242609445006,
+        "worker_seconds": [
+          2.8034773849649355,
+          2.8257789050694555
+        ]
+      },
+      "total_seconds": 7.662792611867189
+    },
+    {
+      "workers": 4,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 1.7561758090741932,
+        "worker_seconds": [
+          1.7354399010073394,
+          1.7561280790250748,
+          1.7560107680037618,
+          1.7353139530168846
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.328255227999762,
+        "worker_seconds": [
+          9.282278008991852,
+          9.314045723993331,
+          9.328073997050524,
+          9.31844415597152
+        ]
+      },
+      "delete": {
+        "batch_seconds": 5.016114284982905,
+        "worker_seconds": [
+          5.016044774092734,
+          4.985597521997988,
+          5.006501436932012,
+          5.0057772940490395
+        ]
+      },
+      "total_seconds": 16.10054532205686
+    }
+  ],
+  "metadata": {
+    "started_utc": "2026-10-29T03:47:31.208826+00:00",
+    "source": "/home/narze/Code/github.com/eventpop/eventpop",
+    "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+    "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/native-btrfs/fsbench-pjg4iar3",
+    "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+    "machine": "x86_64",
+    "cpu_count": 16,
+    "git_version": "git version 2.56.0",
+    "python_version": "3.14.8",
+    "workers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "runs": 10,
+    "warmups_per_worker_count": 1,
+    "cache": "warm / uncontrolled OS cache; no cache eviction",
+    "durability": "command completion; no fsync or cache flush",
+    "import_method": "auto",
+    "install_scripts": false,
+    "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+    "seed_store": null,
+    "free_bytes_before": 311693578240,
+    "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home\",\n         \"source\": \"/dev/mapper/omarchy_root[/@home]\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home\"\n      }\n   ]\n}",
+    "tracked_files": 10055,
+    "pnpm_version": "11.18.0",
+    "node_version": "v24.22.1",
+    "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+    "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+    "finished_utc": "2026-10-29T03:49:03.479275+00:00",
+    "preflight_batches_excluded": 4,
+    "paired_experiment": true,
+    "case": "native-btrfs",
+    "measured_started_utc": "2026-10-29T03:49:03.488588+00:00"
+  },
+  "error": ""
+}

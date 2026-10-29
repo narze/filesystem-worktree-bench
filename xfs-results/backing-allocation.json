@@ -1,0 +1,10 @@
+{
+  "image-btrfs": {
+    "logical_bytes": 17179869184,
+    "allocated_bytes": 17179869184
+  },
+  "image-xfs": {
+    "logical_bytes": 17179869184,
+    "allocated_bytes": 17179869184
+  }
+}

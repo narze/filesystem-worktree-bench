@@ -1,0 +1,42 @@
+{
+  "1": {
+    "samples": 10,
+    "median_total_seconds": 17.599816021858715,
+    "min_total_seconds": 9.125327317975461,
+    "max_total_seconds": 48.30843575997278,
+    "median_workflows_per_second": 0.057282922237138566,
+    "checkout_median_seconds": 1.5999565644888207,
+    "install_median_seconds": 13.894235801068135,
+    "delete_median_seconds": 1.3076852639205754
+  },
+  "2": {
+    "samples": 10,
+    "median_total_seconds": 33.38707719114609,
+    "min_total_seconds": 25.431481056148186,
+    "max_total_seconds": 42.56136300880462,
+    "median_workflows_per_second": 0.06011165040680198,
+    "checkout_median_seconds": 3.5273411800153553,
+    "install_median_seconds": 27.574297413113527,
+    "delete_median_seconds": 1.9280058614676818
+  },
+  "3": {
+    "samples": 10,
+    "median_total_seconds": 49.55381206795573,
+    "min_total_seconds": 39.09414820303209,
+    "max_total_seconds": 66.31798481591977,
+    "median_workflows_per_second": 0.060564297608924525,
+    "checkout_median_seconds": 12.63267513900064,
+    "install_median_seconds": 31.981821020133793,
+    "delete_median_seconds": 4.062819333863445
+  },
+  "4": {
+    "samples": 10,
+    "median_total_seconds": 90.95102890988346,
+    "min_total_seconds": 70.08940410194919,
+    "max_total_seconds": 187.61270989407785,
+    "median_workflows_per_second": 0.043979794988905904,
+    "checkout_median_seconds": 21.406599437003024,
+    "install_median_seconds": 61.36096025595907,
+    "delete_median_seconds": 6.139957841485739
+  }
+}

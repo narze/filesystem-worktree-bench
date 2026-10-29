@@ -1,0 +1,10 @@
+{
+  "removed_utc": "2026-10-29T04:22:42.266328+00:00",
+  "root": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo",
+  "exists_after": false,
+  "approx_allocated_bytes_removed": 35455160320,
+  "loops_detached": [
+    "/dev/loop0",
+    "/dev/loop1"
+  ]
+}

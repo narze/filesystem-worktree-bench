@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "status": "failed",
+  "samples": [
+    {
+      "workers": 3,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 4.243890815065242,
+        "worker_seconds": [
+          4.243847584002651,
+          4.235569076030515,
+          4.240209972951561
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.068249052972533,
+        "worker_seconds": [
+          6.068056589923799,
+          6.010129541042261,
+          6.042197389062494
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.630766773014329,
+        "worker_seconds": [
+          4.598388743004762,
+          4.630714665981941,
+          4.598407678073272
+        ]
+      },
+      "total_seconds": 14.942906641052105
+    },
+    {
+      "workers": 2,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 0.9999373470200226,
+        "worker_seconds": [
+          0.9998977930517867,
+          0.9976643730187789
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.8495106250047684,
+        "worker_seconds": [
+          3.8412042529089376,
+          3.8494040940422565
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.9634232540847734,
+        "worker_seconds": [
+          2.963383769034408,
+          2.95119433500804
+        ]
+      },
+      "total_seconds": 7.812871226109564
+    },
+    {
+      "workers": 4,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 15.041123316972516,
+        "worker_seconds": [
+          12.168862993945368,
+          14.936762127908878,
+          13.894428048050031,
+          15.040753881097771
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.010177046060562,
+        "worker_seconds": [
+          9.007142610033043,
+          9.009640817996114,
+          9.009939730050974,
+          8.995659223059192
+        ]
+      },
+      "delete": {
+        "batch_seconds": 6.1283366091083735,
+        "worker_seconds": [
+          6.100061862030998,
+          6.094634836073965,
+          6.128271886962466,
+          6.096839832956903
+        ]
+      },
+      "total_seconds": 30.179636972141452
+    }
+  ],
+  "metadata": {
+    "started_utc": "2026-10-29T03:49:03.539391+00:00",
+    "source": "/home/narze/Code/github.com/eventpop/eventpop",
+    "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+    "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-btrfs/fsbench-1f0cpi60",
+    "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+    "machine": "x86_64",
+    "cpu_count": 16,
+    "git_version": "git version 2.56.0",
+    "python_version": "3.14.8",
+    "workers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "runs": 10,
+    "warmups_per_worker_count": 1,
+    "cache": "warm / uncontrolled OS cache; no cache eviction",
+    "durability": "command completion; no fsync or cache flush",
+    "import_method": "auto",
+    "install_scripts": false,
+    "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+    "seed_store": null,
+    "free_bytes_before": 16625172480,
+    "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-btrfs\",\n         \"source\": \"/dev/loop0\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=5,subvol=/\"\n      }\n   ]\n}",
+    "tracked_files": 10055,
+    "pnpm_version": "11.18.0",
+    "node_version": "v24.22.1",
+    "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+    "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+    "finished_utc": "2026-10-29T03:51:13.713531+00:00",
+    "preflight_batches_excluded": 4,
+    "paired_experiment": true,
+    "case": "image-btrfs",
+    "measured_started_utc": "2026-10-29T03:51:13.723027+00:00"
+  },
+  "discarded_attempts": [
+    {
+      "round": 1,
+      "workers": 4,
+      "error": "Command failed: ['git', '-c', 'core.hooksPath=/dev/null', '-c', 'core.fsmonitor=false', '--git-dir', PosixPath('/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-btrfs/fsbench-1f0cpi60/repo.git'), 'worktree', 'add', '--detach', PosixPath('/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-btrfs/fsbench-1f0cpi60/trees/worker-2'), '0e0499f42444f1e4b2c0a6d11fc8043b42be295a']\nPreparing worktree (detached HEAD 0e0499f424)\nfatal: failed to read /home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-1b9h4qoh/image-btrfs/fsbench-1f0cpi60/repo.git/worktrees/worker-3/commondir: Success\n"
+    }
+  ],
+  "error": ""
+}

@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-10-28T18:13:31.940759+00:00",
+  "removed_path": "/home/narze/fsbench/eventpop-20261029-mHK14W",
+  "result_sha256": "8803b1e41bdd920c6ea295c8b3c40fff034c6f97e32eab5e6107d3e7a2c51263",
+  "approx_allocated_bytes_removed": 1257619456,
+  "exists_after": false,
+  "filesystem_bytes_before": {
+    "total": 974029213696,
+    "used": 61653671936,
+    "free": 862822096896
+  },
+  "filesystem_bytes_after": {
+    "total": 974029213696,
+    "used": 60396126208,
+    "free": 864079642624
+  }
+}

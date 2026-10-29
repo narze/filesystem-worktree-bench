@@ -1,0 +1,18 @@
+Note: No thermal warning level has been recorded
+Note: No performance warning level has been recorded
+Note: No CPU power status has been recorded
+50311 170.5  14480 /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python
+  346 149.0  11328 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+  539 138.0  72784 /Library/SystemExtensions/0F633C8A-C7EB-40B4-A207-F2733B627CEF/com.surfshark.vpnclient.macos.direct.Antivirus.systemextension/Contents/MacOS/com.surfshark.vpnclient.macos.direct.Antivirus
+ 1032 110.8 1552016 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper (Renderer).app/Contents/MacOS/Spotify Helper (Renderer)
+  415  34.4 111712 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  383  26.9  10656 /usr/libexec/opendirectoryd
+76171  22.4 562544 /Applications/OrbStack.app/Contents/Frameworks/OrbStack Helper.app/Contents/MacOS/OrbStack Helper
+  915  21.2  45488 /Applications/Surfshark.app/Contents/MacOS/Surfshark
+50417  16.0  88816 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+41967  15.8 283520 /Applications/T3 Code (Beta).app/Contents/Frameworks/T3 Code (Beta) Helper (Renderer).app/Contents/MacOS/T3 Code (Beta) Helper (Renderer)
+  429  15.8  18816 /usr/sbin/coreaudiod
+  371  14.1  21696 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+  687  14.0  72080 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+20620  12.2  51232 /Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper
+99687   9.2 390208 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper (Renderer).app/Contents/MacOS/Grok Bot Helper (Renderer)

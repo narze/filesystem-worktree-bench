@@ -1,0 +1,206 @@
+? Verifying lockfile against supply-chain policies (1378 entries)...
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +1318
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /home/narze/fsbench/eventpop-20261029-mHK14W/fsbench-8gtr6k8y/pnpm-store/v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 1318, reused 0, downloaded 4, added 4
+Progress: resolved 1318, reused 0, downloaded 70, added 70
+Progress: resolved 1318, reused 0, downloaded 121, added 110
+Progress: resolved 1318, reused 0, downloaded 177, added 118
+[WARN] Tarball download average speed 36 KiB/s (size 54 KiB) is below 50 KiB/s: https://registry.npmjs.org/@allurereport/core/-/core-3.21.0.tgz (GET)
+Progress: resolved 1318, reused 0, downloaded 178, added 118
+Progress: resolved 1318, reused 0, downloaded 251, added 122
+Progress: resolved 1318, reused 0, downloaded 252, added 122
+Progress: resolved 1318, reused 0, downloaded 253, added 122
+Progress: resolved 1318, reused 0, downloaded 279, added 126
+Progress: resolved 1318, reused 0, downloaded 286, added 126
+Progress: resolved 1318, reused 0, downloaded 287, added 126
+[WARN] Request took 13013ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-login
+Progress: resolved 1318, reused 0, downloaded 312, added 126
+[WARN] Request took 12615ms: https://registry.npmjs.org/@aws-sdk%2Fmiddleware-recursion-detection
+[WARN] Request took 10669ms: https://registry.npmjs.org/@azure%2Fmsal-common
+[WARN] Request took 14102ms: https://registry.npmjs.org/@aws-sdk%2Fmiddleware-host-header
+Progress: resolved 1318, reused 0, downloaded 313, added 126
+Progress: resolved 1318, reused 0, downloaded 402, added 134
+[WARN] Request took 12942ms: https://registry.npmjs.org/@azure%2Fmsal-browser
+Progress: resolved 1318, reused 0, downloaded 436, added 138
+[WARN] Request took 10106ms: https://registry.npmjs.org/@babel%2Fhelpers
+[WARN] Request took 17948ms: https://registry.npmjs.org/@aws-sdk%2Ftoken-providers
+Progress: resolved 1318, reused 0, downloaded 469, added 138
+Progress: resolved 1318, reused 0, downloaded 666, added 180
+Progress: resolved 1318, reused 0, downloaded 668, added 180
+[WARN] Request took 23382ms: https://registry.npmjs.org/@aws-sdk%2Fmiddleware-user-agent
+[WARN] Request took 24093ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-http
+[WARN] Request took 19103ms: https://registry.npmjs.org/@babel%2Fcore
+[WARN] Request took 12821ms: https://registry.npmjs.org/@babel%2Fplugin-transform-block-scoping
+Progress: resolved 1318, reused 0, downloaded 678, added 180
+[WARN] Request took 24363ms: https://registry.npmjs.org/@aws-sdk%2Futil-endpoints
+Progress: resolved 1318, reused 0, downloaded 720, added 184
+[WARN] Request took 11856ms: https://registry.npmjs.org/@babel%2Fplugin-transform-for-of
+Progress: resolved 1318, reused 0, downloaded 780, added 188
+Progress: resolved 1318, reused 0, downloaded 868, added 196
+[WARN] Request took 20663ms: https://registry.npmjs.org/@babel%2Fparser
+[WARN] Request took 28063ms: https://registry.npmjs.org/@aws-sdk%2Ftypes
+[WARN] Request took 29410ms: https://registry.npmjs.org/@aws-sdk%2Fmiddleware-logger
+[WARN] Request took 15319ms: https://registry.npmjs.org/@babel%2Fplugin-transform-classes
+[WARN] Request took 29645ms: https://registry.npmjs.org/@aws-sdk%2Fmiddleware-endpoint-discovery
+[WARN] Request took 30000ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-node
+Progress: resolved 1318, reused 0, downloaded 904, added 200
+[WARN] Request took 29350ms: https://registry.npmjs.org/@aws-sdk%2Futil-user-agent-node
+Progress: resolved 1318, reused 0, downloaded 1130, added 311
+Progress: resolved 1318, reused 0, downloaded 1237, added 351
+[WARN] Request took 32646ms: https://registry.npmjs.org/@aws-sdk%2Fsignature-v4-multi-region
+[WARN] Request took 33262ms: https://registry.npmjs.org/@aws-sdk%2Fmiddleware-sdk-sqs
+Progress: resolved 1318, reused 0, downloaded 1306, added 354
+[WARN] Request took 10760ms: https://registry.npmjs.org/@babel%2Fplugin-transform-typescript
+Progress: resolved 1318, reused 0, downloaded 1318, added 734
+Progress: resolved 1318, reused 0, downloaded 1318, added 1316
+Progress: resolved 1318, reused 0, downloaded 1318, added 1317
+[WARN] Request took 10861ms: https://registry.npmjs.org/@babel%2Ftraverse
+[WARN] Request took 39420ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-web-identity
+[WARN] Request took 39849ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-sso
+Progress: resolved 1318, reused 0, downloaded 1318, added 1318
+Progress: resolved 1318, reused 0, downloaded 1318, added 1318, done
+[WARN] Request took 40595ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-env
+[WARN] Request took 43799ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-process
+[WARN] Request took 28851ms: https://registry.npmjs.org/@azure%2Fmsal-common
+[WARN] Request took 22250ms: https://registry.npmjs.org/@azure%2Fmsal-browser
+[WARN] Request took 42409ms: https://registry.npmjs.org/@azure%2Fstorage-blob
+[WARN] Request took 22369ms: https://registry.npmjs.org/@babel%2Fpreset-env
+[WARN] Request took 11169ms: https://registry.npmjs.org/@radix-ui%2Freact-dismissable-layer
+[WARN] Request took 10207ms: https://registry.npmjs.org/@radix-ui%2Freact-toast
+[WARN] Request took 52749ms: https://registry.npmjs.org/@aws-sdk%2Fcredential-provider-ini
+[WARN] Request took 14106ms: https://registry.npmjs.org/@radix-ui%2Freact-dialog
+[WARN] Request took 51916ms: https://registry.npmjs.org/@azure%2Fidentity
+[WARN] Request took 28616ms: https://registry.npmjs.org/@aws-sdk%2Ftoken-providers
+[WARN] Request took 12777ms: https://registry.npmjs.org/@tanstack%2Freact-query
+[WARN] GET https://registry.npmjs.org/@aws-sdk%2Fclient-dynamodb error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@aws-sdk%2Fclient-sqs error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@aws-sdk%2Fclient-ecs error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] Request took 19313ms: https://registry.npmjs.org/@redocly%2Fopenapi-core
+[WARN] Request took 15017ms: https://registry.npmjs.org/@types%2Freact
+[WARN] Request took 14806ms: https://registry.npmjs.org/caniuse-lite
+[WARN] Request took 19444ms: https://registry.npmjs.org/bullmq
+[WARN] Request took 27868ms: https://registry.npmjs.org/@types%2Fnode
+[WARN] Request took 15870ms: https://registry.npmjs.org/electron-to-chromium
+[WARN] Request took 13148ms: https://registry.npmjs.org/framer-motion
+[WARN] Request took 39631ms: https://registry.npmjs.org/@playwright%2Ftest
+[WARN] Request took 24884ms: https://registry.npmjs.org/axe-core
+
+dependencies:
++ @actions/core 1.11.1
++ @aws-sdk/client-ecs 3.1152.0
++ @clack/prompts 0.7.0
++ @eventpop-oss/frame-host 0.1.2
++ @hcaptcha/react-hcaptcha 1.17.4
++ @js-from-routes/client 1.0.4
++ @nanostores/react 0.8.4
++ @sockudo/client 2.2.0
++ @stripe/react-stripe-js 3.10.0
++ @stripe/stripe-js 5.10.0
++ @tanstack/react-query 4.43.0
++ @testing-library/dom 9.3.4
++ @testing-library/user-event 14.6.8
++ @worldcoin/idkit 2.4.2
++ @zxing/browser 0.2.1
++ @zxing/library 0.23.0
++ allure 3.21.0
++ alpinejs 3.17.4
++ axios 1.20.0
++ bullmq 3.16.2
++ chalk 5.6.2
++ ci-parallelizer 0.0.0-experimental-d4afc1d-20240517
++ clsx 1.2.1
++ codemirror 5.65.21
++ countries-list 3.4.1
++ csv 6.6.4
++ date-fns 4.4.0
++ dompurify 3.4.17
++ dotenv 16.6.1
++ dotenv-cli 6.0.0
++ execa 6.1.0
++ flex-render 0.1.10
++ fuzzysort 2.0.4
++ glob 8.1.0
++ globby 13.2.2
++ heic2any 0.0.4
++ immer 10.2.0
++ inquirer 14.2.4
++ intl-tel-input 25.15.1
++ ioredis 5.11.1
++ jose 4.15.9
++ js-yaml 4.3.2
++ jszip 3.10.2
++ lodash-es 4.18.1
++ mjml 5.4.1
++ nanostores 0.11.4
++ openapi-fetch 0.17.0
++ openapi-typescript 7.13.0
++ papaparse 5.7.0
++ react 19.3.1
++ react-dom 19.3.1
++ react-error-boundary 5.0.0
++ react-flags-select 2.5.0
++ react-imask 7.6.1
++ react-international-phone 4.8.0
++ react-intersection-observer 9.16.0
++ terminal-link 5.0.0
++ thai-id-validator 1.1.7
++ yargs 18.2.0
++ zod 3.25.76
+
+devDependencies:
++ @azure/identity 4.14.0
++ @azure/playwright 1.1.6
++ @azure/storage-blob 12.34.0
++ @faker-js/faker 10.6.0
++ @herb-tools/linter 0.11.1
++ @playwright/test 1.64.1
++ @testing-library/react-hooks 8.0.1
++ @tsconfig/node20 20.1.10
++ @types/alpinejs 3.17.0
++ @types/codemirror 5.60.18
++ @types/glob 8.1.0
++ @types/jquery 3.5.34
++ @types/js-yaml 4.0.9
++ @types/lodash-es 4.17.12
++ @types/node 24.19.2
++ @types/pdf-parse 1.1.5
++ @types/react 19.3.0
++ @types/react-dom 19.3.0
++ @types/summernote 0.8.10
++ @types/ws 8.18.2
++ @types/yargs 17.0.35
++ @typescript-eslint/parser 5.62.0
++ @vitejs/plugin-react 6.1.2
++ @vitest/coverage-v8 4.1.11
++ eslint 8.57.1
++ eslint-config-react-app 7.0.1
++ eslint-plugin-oxlint 1.88.0
++ eslint-plugin-playwright 2.12.1
++ oxlint 1.88.0
++ pdf-parse 1.1.4
++ prettier 3.9.10
++ swagger2openapi 7.0.8
++ typescript 6.0.3
++ uuid 14.0.3
++ vite 8.3.4
++ vite-plugin-ruby 5.2.6
++ vitest 4.1.11
++ wait-on 8.0.5
++ ws 8.22.0
+
+[WARN] Request took 30178ms: https://registry.npmjs.org/@typescript-eslint%2Ftype-utils
+[WARN] Request took 30019ms: https://registry.npmjs.org/@typescript-eslint%2Futils
+[WARN] Request took 16205ms: https://registry.npmjs.org/eslint-plugin-react-hooks
+[WARN] Request took 31129ms: https://registry.npmjs.org/@typescript-eslint%2Ftypes
+[WARN] Request took 31493ms: https://registry.npmjs.org/@typescript-eslint%2Fvisitor-keys
+[WARN] Request took 32492ms: https://registry.npmjs.org/@typescript-eslint%2Fscope-manager
+[WARN] Request took 33405ms: https://registry.npmjs.org/@typescript-eslint%2Fparser
+[WARN] Request took 33480ms: https://registry.npmjs.org/@typescript-eslint%2Ftypescript-estree
+[WARN] Request took 34339ms: https://registry.npmjs.org/@typescript-eslint%2Feslint-plugin
+✓ Lockfile passes supply-chain policies (1378 entries in 1m 25.8s)
+Done in 1m 28.7s using pnpm v11.18.0

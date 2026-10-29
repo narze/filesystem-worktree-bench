@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-28T18:03:50.538790+00:00",
+  "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+  "pnpm_sha256": "5253220be9149295a49460c5e88fbfac2f78194be0a0050c7b4a65eca788a68b",
+  "dist_pnpm_mjs_sha256": "d34a7b439643e7b8680a817387ec3692c7097ae7a85865c2c15ad6211143d506",
+  "path_node_version": "v24.22.1",
+  "pnpm_version": "11.18.0",
+  "file_type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=cb977de69ecc7958f8ad4aaca9a789d69372c396, for GNU/Linux 3.2.0, with debug_info, not stripped",
+  "runtime_probe": {
+    "returncode": 0,
+    "output": "{\"node\":\"v26.0.0\",\"execPath\":\"/home/narze/fsbench/eventpop-20261029-mHK14W/tools/runtime-probe-wwe9g78e/pnpm\"}\n"
+  },
+  "embedded_node_version": "v26.0.0"
+}

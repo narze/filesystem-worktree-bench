@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-10-29T08:07:01.841021+00:00",
+  "temporary_volume_uuid": "260BEE06-F575-4905-83EE-B3F2CC0E600E",
+  "volume_uuid_absent": true,
+  "benchmark_volumes_remaining": [],
+  "mount_path_absent": true,
+  "fseventsd_pids": [
+    "346"
+  ],
+  "startup_spotlight": "/:\n\tIndexing enabled. \n",
+  "data_spotlight": "/System/Volumes/Data:\n\tIndexing disabled.\n",
+  "current_free_bytes": 37987024896
+}

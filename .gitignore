@@ -1,0 +1,10 @@
+fsbench-*/
+__pycache__/
+.mac-*
+.thinkpad-*
+.debianarze-*
+.m1-pro-*
+.cleanup-*
+.xfs-*
+._*
+.DS_Store

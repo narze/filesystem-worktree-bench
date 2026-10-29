@@ -1,0 +1,22 @@
+{
+  "scope": "Private/service URLs, network addresses, inventory hostnames and credentials.",
+  "public_references_preserved": true,
+  "history": "Fresh export; original Git history excluded.",
+  "redacted_files": [
+    "debianarze-results/inventory.json",
+    "desktop-results/inventory.json",
+    "final-cleanup-verification.json",
+    "m1-pro-results/inventory.json",
+    "mac-results/inventory.json",
+    "mac-tuning-report.json",
+    "mac-tuning-results/attempt-a/experiment.json",
+    "mac-tuning-results/attempt-b/experiment.json",
+    "mac-tuning-results/attempt-b/report.json",
+    "mac-tuning-results/experiment.json",
+    "mac-tuning-results/main/experiment.json",
+    "thinkpad-results/inventory.json",
+    "xfs-pilot-results/host-context.json",
+    "xfs-results/host-context.json"
+  ],
+  "provenance": "Original checksums in cleanup receipts describe the original evidence. Publication manifests describe sanitized files."
+}

@@ -1,0 +1,239 @@
+{
+  "captured_utc": "2026-10-29T03:55:16.072329+00:00",
+  "hostname": "[REDACTED]",
+  "system": "Linux",
+  "kernel": "7.2.8-9-omarchy",
+  "architecture": "x86_64",
+  "python_version": "3.14.8",
+  "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641",
+  "disk_usage_bytes": {
+    "total": 497014538240,
+    "used": 149079982080,
+    "free": 346051608576
+  },
+  "load_average": [
+    4.716796875,
+    6.33203125,
+    3.49951171875
+  ],
+  "git_version": "git version 2.56.0",
+  "hardware": {
+    "sys_vendor": "ASUS",
+    "product_name": "System Product Name",
+    "product_version": "System Version",
+    "board_vendor": "ASUSTeK COMPUTER INC.",
+    "board_name": "ROG STRIX B550-I GAMING",
+    "bios_vendor": "American Megatrends Inc.",
+    "bios_version": "1004",
+    "bios_date": "08/13/2020"
+  },
+  "cpu": {
+    "Architecture": "x86_64",
+    "CPU(s)": "16",
+    "Model name": "AMD Ryzen 7 5800X 8-Core Processor",
+    "Thread(s) per core": "2",
+    "Core(s) per socket": "8",
+    "Socket(s)": "1",
+    "CPU max MHz": "4853.5850",
+    "CPU min MHz": "555.5310"
+  },
+  "os_release": {
+    "NAME": "Omarchy",
+    "PRETTY_NAME": "Omarchy"
+  },
+  "memory_bytes": {
+    "MemTotal": 33518104576,
+    "MemAvailable": 13944291328,
+    "SwapTotal": 67040489472,
+    "SwapFree": 51523362816
+  },
+  "block_devices": {
+    "blockdevices": [
+      {
+        "name": "sda",
+        "type": "disk",
+        "size": 250059350016,
+        "fstype": null,
+        "model": "Samsung SSD 850 EVO 250GB",
+        "rota": false,
+        "tran": "sata",
+        "mountpoints": [],
+        "children": [
+          {
+            "name": "sda1",
+            "type": "part",
+            "size": 471859200,
+            "fstype": "ntfs",
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": []
+          },
+          {
+            "name": "sda2",
+            "type": "part",
+            "size": 104857600,
+            "fstype": "vfat",
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": []
+          },
+          {
+            "name": "sda3",
+            "type": "part",
+            "size": 16777216,
+            "fstype": null,
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": []
+          },
+          {
+            "name": "sda4",
+            "type": "part",
+            "size": 248915176448,
+            "fstype": "ntfs",
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": []
+          },
+          {
+            "name": "sda5",
+            "type": "part",
+            "size": 547356672,
+            "fstype": "ntfs",
+            "model": null,
+            "rota": false,
+            "tran": null,
+            "mountpoints": []
+          }
+        ]
+      },
+      {
+        "name": "zram0",
+        "type": "disk",
+        "size": 33517731840,
+        "fstype": "swap",
+        "model": null,
+        "rota": false,
+        "tran": null,
+        "mountpoints": [
+          "[SWAP]"
+        ]
+      },
+      {
+        "name": "nvme0n1",
+        "type": "disk",
+        "size": 1000204886016,
+        "fstype": null,
+        "model": "Samsung SSD 960 EVO 1TB",
+        "rota": false,
+        "tran": "nvme",
+        "mountpoints": [],
+        "children": [
+          {
+            "name": "nvme0n1p1",
+            "type": "part",
+            "size": 16777216,
+            "fstype": null,
+            "model": null,
+            "rota": false,
+            "tran": "nvme",
+            "mountpoints": []
+          },
+          {
+            "name": "nvme0n1p2",
+            "type": "part",
+            "size": 499995639808,
+            "fstype": "ntfs",
+            "model": null,
+            "rota": false,
+            "tran": "nvme",
+            "mountpoints": []
+          },
+          {
+            "name": "nvme0n1p3",
+            "type": "part",
+            "size": 268435456,
+            "fstype": "vfat",
+            "model": null,
+            "rota": false,
+            "tran": "nvme",
+            "mountpoints": []
+          },
+          {
+            "name": "nvme0n1p4",
+            "type": "part",
+            "size": 547356672,
+            "fstype": "ntfs",
+            "model": null,
+            "rota": false,
+            "tran": "nvme",
+            "mountpoints": []
+          },
+          {
+            "name": "nvme0n1p5",
+            "type": "part",
+            "size": 2147484160,
+            "fstype": "vfat",
+            "model": null,
+            "rota": false,
+            "tran": "nvme",
+            "mountpoints": [
+              "/boot"
+            ]
+          },
+          {
+            "name": "nvme0n1p6",
+            "type": "part",
+            "size": 497031315968,
+            "fstype": "crypto_LUKS",
+            "model": null,
+            "rota": false,
+            "tran": "nvme",
+            "mountpoints": [],
+            "children": [
+              {
+                "name": "omarchy_root",
+                "type": "crypt",
+                "size": 497014538752,
+                "fstype": "btrfs",
+                "model": null,
+                "rota": false,
+                "tran": null,
+                "mountpoints": [
+                  "/home",
+                  "/var/cache/pacman/pkg",
+                  "/var/log",
+                  "/"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "filesystem": {
+    "filesystems": [
+      {
+        "target": "/home",
+        "source": "/dev/mapper/omarchy_root[/@home]",
+        "fstype": "btrfs",
+        "options": "rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home"
+      }
+    ]
+  },
+  "graphics": [
+    "08:00.0 VGA compatible controller: NVIDIA Corporation GB206 [GeForce RTX 5060 Ti] (rev a1)"
+  ],
+  "nvidia_gpu": "NVIDIA GeForce RTX 5060 Ti, 8151, 615.78.08",
+  "power": {},
+  "cpu_governor": "performance",
+  "energy_preference": "performance",
+  "platform_profile": null,
+  "collection_errors": [],
+  "runner_sha256": "a2cb69b94b95c7cbf35a9f0b9f729553051d561785dcc7f32c6b946a2b871e9d"
+}

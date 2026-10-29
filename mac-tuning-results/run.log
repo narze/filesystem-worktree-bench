@@ -1,0 +1,55 @@
+Condition A: Spotlight=True, persistent log=True; settling 60s
+Settling...
+Settling...
+Settling...
+Settling...
+Results: /Volumes/FSBenchTuning-20261029b/fsbench-kl4h7v9h
+Preparing dedicated dependency store (outside timings)...
+Warmup 1: 1 workers
+Warmup 1: 2 workers
+Warmup 1: 3 workers
+Warmup 1: 4 workers
+Round 1/10, 3 workers: 38.950s batch
+Round 1/10, 2 workers: 24.072s batch
+Round 1/10, 4 workers: 50.870s batch
+Round 1/10, 1 workers: 13.076s batch
+Round 2/10, 4 workers: 50.583s batch
+Round 2/10, 3 workers: 35.274s batch
+Round 2/10, 1 workers: 12.661s batch
+Round 2/10, 2 workers: 23.417s batch
+Round 3/10, 2 workers: 23.801s batch
+Round 3/10, 4 workers: 48.980s batch
+Round 3/10, 3 workers: 36.925s batch
+Round 3/10, 1 workers: 13.074s batch
+Round 4/10, 2 workers: 24.704s batch
+Round 4/10, 3 workers: 34.608s batch
+Round 4/10, 1 workers: 13.036s batch
+Round 4/10, 4 workers: 51.907s batch
+Round 5/10, 2 workers: 25.422s batch
+Round 5/10, 3 workers: 40.260s batch
+Round 5/10, 4 workers: 50.090s batch
+Round 5/10, 1 workers: 13.278s batch
+Round 6/10, 2 workers: 25.185s batch
+Round 6/10, 4 workers: 51.198s batch
+Round 6/10, 3 workers: 39.792s batch
+Round 6/10, 1 workers: 15.582s batch
+Round 7/10, 3 workers: 40.953s batch
+Round 7/10, 2 workers: 24.334s batch
+Round 7/10, 1 workers: 13.044s batch
+Round 7/10, 4 workers: 52.150s batch
+Round 8/10, 2 workers: 25.097s batch
+Round 8/10, 4 workers: 51.640s batch
+Round 8/10, 1 workers: 13.190s batch
+Round 8/10, 3 workers: 38.780s batch
+Round 9/10, 1 workers: 14.506s batch
+Round 9/10, 3 workers: 48.174s batch
+Round 9/10, 2 workers: 28.545s batch
+Round 9/10, 4 workers: 49.484s batch
+Round 10/10, 3 workers: 38.744s batch
+Round 10/10, 4 workers: 55.221s batch
+Round 10/10, 1 workers: 12.815s batch
+Round 10/10, 2 workers: 23.196s batch
+1 workers: median 13.075s, range 12.661-15.582s
+2 workers: median 24.519s, range 23.196-28.545s
+3 workers: median 38.865s, range 34.608-48.174s
+4 workers: median 51.034s, range 48.980-55.221s

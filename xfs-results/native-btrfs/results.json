@@ -1,0 +1,1143 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "samples": [
+    {
+      "workers": 3,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 1.3449915379751474,
+        "worker_seconds": [
+          1.3444958849577233,
+          1.3446622589835897,
+          1.3449565019691363
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.136272515985183,
+        "worker_seconds": [
+          6.1339087900705636,
+          6.13614309206605,
+          6.089362393016927
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.867946855025366,
+        "worker_seconds": [
+          3.867899646051228,
+          3.8457229629857466,
+          3.8578666840912774
+        ]
+      },
+      "total_seconds": 11.349210908985697
+    },
+    {
+      "workers": 2,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 0.955008622026071,
+        "worker_seconds": [
+          0.941181194037199,
+          0.9549123110482469
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.770871330052614,
+        "worker_seconds": [
+          3.770817387965508,
+          3.7580161709338427
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.040695938980207,
+        "worker_seconds": [
+          3.0406488310545683,
+          3.0382320940261707
+        ]
+      },
+      "total_seconds": 7.766575891058892
+    },
+    {
+      "workers": 4,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 1.8679771720198914,
+        "worker_seconds": [
+          1.8479222399182618,
+          1.8362238469999284,
+          1.8677169020520523,
+          1.840311714913696
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.553782193921506,
+        "worker_seconds": [
+          9.529287651996128,
+          9.55361007002648,
+          9.542199488030747,
+          9.522727131959982
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.898676921031438,
+        "worker_seconds": [
+          4.898568477015942,
+          4.873566269990988,
+          4.86819514806848,
+          4.8684872869635
+        ]
+      },
+      "total_seconds": 16.320436286972836
+    },
+    {
+      "workers": 1,
+      "round": 1,
+      "checkout": {
+        "batch_seconds": 0.7562109729042277,
+        "worker_seconds": [
+          0.7561611799756065
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.60715686599724,
+        "worker_seconds": [
+          2.607108525931835
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2103449360001832,
+        "worker_seconds": [
+          2.210293930955231
+        ]
+      },
+      "total_seconds": 5.573712774901651
+    },
+    {
+      "workers": 4,
+      "round": 2,
+      "checkout": {
+        "batch_seconds": 1.7560818890342489,
+        "worker_seconds": [
+          1.714571360964328,
+          1.7487667000386864,
+          1.7315150910289958,
+          1.7560388890560716
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.423856161069125,
+        "worker_seconds": [
+          9.403243661043234,
+          9.388313558069058,
+          9.423726578010246,
+          9.399218039005063
+        ]
+      },
+      "delete": {
+        "batch_seconds": 5.021180322975852,
+        "worker_seconds": [
+          4.97346061503049,
+          5.0086154990131035,
+          4.974969994975254,
+          5.021102106082253
+        ]
+      },
+      "total_seconds": 16.201118373079225
+    },
+    {
+      "workers": 3,
+      "round": 2,
+      "checkout": {
+        "batch_seconds": 1.4022945009637624,
+        "worker_seconds": [
+          1.380723757087253,
+          1.4021555489161983,
+          1.3604154490167275
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.554964335053228,
+        "worker_seconds": [
+          6.5307213549967855,
+          6.552495791926049,
+          6.5547963690478355
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.8460520580410957,
+        "worker_seconds": [
+          3.8459995900047943,
+          3.8252294820267707,
+          3.8251664739800617
+        ]
+      },
+      "total_seconds": 11.803310894058086
+    },
+    {
+      "workers": 1,
+      "round": 2,
+      "checkout": {
+        "batch_seconds": 0.7657439460745081,
+        "worker_seconds": [
+          0.7656923199538141
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.6294109619921073,
+        "worker_seconds": [
+          2.62935727101285
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2112870030105114,
+        "worker_seconds": [
+          2.211230976972729
+        ]
+      },
+      "total_seconds": 5.606441911077127
+    },
+    {
+      "workers": 2,
+      "round": 2,
+      "checkout": {
+        "batch_seconds": 0.8753577579045668,
+        "worker_seconds": [
+          0.8717339119175449,
+          0.8753196559846401
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.816980096977204,
+        "worker_seconds": [
+          3.8106312550371513,
+          3.8169432380236685
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.91972246801015,
+        "worker_seconds": [
+          2.865433753002435,
+          2.9196633669780567
+        ]
+      },
+      "total_seconds": 7.612060322891921
+    },
+    {
+      "workers": 2,
+      "round": 3,
+      "checkout": {
+        "batch_seconds": 0.9174595560180023,
+        "worker_seconds": [
+          0.9173207349376753,
+          0.8932908059796318
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.7962244630325586,
+        "worker_seconds": [
+          3.7754758250666782,
+          3.7960912419948727
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.8818709899205714,
+        "worker_seconds": [
+          2.881820676033385,
+          2.8635979800019413
+        ]
+      },
+      "total_seconds": 7.595555008971132
+    },
+    {
+      "workers": 4,
+      "round": 3,
+      "checkout": {
+        "batch_seconds": 1.887771102017723,
+        "worker_seconds": [
+          1.8875068050110713,
+          1.8548439679434523,
+          1.8641590080223978,
+          1.8514970219694078
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.615963125950657,
+        "worker_seconds": [
+          9.615913331974298,
+          9.598972707986832,
+          9.59902163897641,
+          9.603118194034323
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.97335581399966,
+        "worker_seconds": [
+          4.951268387958407,
+          4.968672013026662,
+          4.973297092947178,
+          4.966014393954538
+        ]
+      },
+      "total_seconds": 16.47709004196804
+    },
+    {
+      "workers": 3,
+      "round": 3,
+      "checkout": {
+        "batch_seconds": 1.3758788410341367,
+        "worker_seconds": [
+          1.3757449699332938,
+          1.3710659389616922,
+          1.3624904479365796
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.107881071045995,
+        "worker_seconds": [
+          6.072459534974769,
+          6.083674419904128,
+          6.107828864012845
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.8745350409299135,
+        "worker_seconds": [
+          3.8744974200380966,
+          3.8681202549487352,
+          3.8427559949923307
+        ]
+      },
+      "total_seconds": 11.358294953010045
+    },
+    {
+      "workers": 1,
+      "round": 3,
+      "checkout": {
+        "batch_seconds": 0.7597701229387894,
+        "worker_seconds": [
+          0.7597179838921875
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.612157609080896,
+        "worker_seconds": [
+          2.6121105100028217
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.217244495986961,
+        "worker_seconds": [
+          2.2171909150201827
+        ]
+      },
+      "total_seconds": 5.589172228006646
+    },
+    {
+      "workers": 2,
+      "round": 4,
+      "checkout": {
+        "batch_seconds": 0.9029471389949322,
+        "worker_seconds": [
+          0.902827303041704,
+          0.8909633969888091
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.7712373359827325,
+        "worker_seconds": [
+          3.743460659054108,
+          3.7711167889647186
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.8826554500265047,
+        "worker_seconds": [
+          2.8826228389516473,
+          2.8657009080052376
+        ]
+      },
+      "total_seconds": 7.556839925004169
+    },
+    {
+      "workers": 3,
+      "round": 4,
+      "checkout": {
+        "batch_seconds": 1.3330786890583113,
+        "worker_seconds": [
+          1.3225942379795015,
+          1.3032205760246143,
+          1.333018185920082
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.1268272689776495,
+        "worker_seconds": [
+          6.102292879950255,
+          6.1267840780783445,
+          6.124111976940185
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.8276153039187193,
+        "worker_seconds": [
+          3.8275447220075876,
+          3.820791695965454,
+          3.826443503028713
+        ]
+      },
+      "total_seconds": 11.28752126195468
+    },
+    {
+      "workers": 1,
+      "round": 4,
+      "checkout": {
+        "batch_seconds": 0.7707376430043951,
+        "worker_seconds": [
+          0.7706888209795579
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.642039189930074,
+        "worker_seconds": [
+          2.641984677989967
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2162232999689877,
+        "worker_seconds": [
+          2.2161579070379958
+        ]
+      },
+      "total_seconds": 5.629000132903457
+    },
+    {
+      "workers": 4,
+      "round": 4,
+      "checkout": {
+        "batch_seconds": 1.8587526100454852,
+        "worker_seconds": [
+          1.7996957779396325,
+          1.858420166070573,
+          1.844749051029794,
+          1.8587210109690204
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.512554489076138,
+        "worker_seconds": [
+          9.502229090081528,
+          9.512506728991866,
+          9.492822507047094,
+          9.487748053041287
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.98416803998407,
+        "worker_seconds": [
+          4.98411453992594,
+          4.968612263910472,
+          4.982181989005767,
+          4.972758574062027
+        ]
+      },
+      "total_seconds": 16.355475139105693
+    },
+    {
+      "workers": 2,
+      "round": 5,
+      "checkout": {
+        "batch_seconds": 0.9048369190422818,
+        "worker_seconds": [
+          0.9047143289353698,
+          0.9045975500484928
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.769680100027472,
+        "worker_seconds": [
+          3.7696371600031853,
+          3.7636515429476276
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.854295271099545,
+        "worker_seconds": [
+          2.8542640020605177,
+          2.8523033970268443
+        ]
+      },
+      "total_seconds": 7.528812290169299
+    },
+    {
+      "workers": 3,
+      "round": 5,
+      "checkout": {
+        "batch_seconds": 1.3740589480148628,
+        "worker_seconds": [
+          1.340691330959089,
+          1.3360978489508852,
+          1.3740065899910405
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.152078986051492,
+        "worker_seconds": [
+          6.106878645019606,
+          6.122582542942837,
+          6.152042067027651
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.886740422109142,
+        "worker_seconds": [
+          3.8866864709416404,
+          3.8695945049403235,
+          3.8823305760743096
+        ]
+      },
+      "total_seconds": 11.412878356175497
+    },
+    {
+      "workers": 4,
+      "round": 5,
+      "checkout": {
+        "batch_seconds": 1.8188361399807036,
+        "worker_seconds": [
+          1.6874730869894847,
+          1.8186864799354225,
+          1.7451978520257398,
+          1.7843285650014877
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.645284014986828,
+        "worker_seconds": [
+          9.638766215997748,
+          9.645159379928373,
+          9.604810877935961,
+          9.596797117963433
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.96888812398538,
+        "worker_seconds": [
+          4.961150332004763,
+          4.957309053977951,
+          4.968817361048423,
+          4.955717043019831
+        ]
+      },
+      "total_seconds": 16.43300827895291
+    },
+    {
+      "workers": 1,
+      "round": 5,
+      "checkout": {
+        "batch_seconds": 0.7651529669528827,
+        "worker_seconds": [
+          0.7651028929976746
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.6069151900010183,
+        "worker_seconds": [
+          2.606862611020915
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2594159049913287,
+        "worker_seconds": [
+          2.2593668430345133
+        ]
+      },
+      "total_seconds": 5.63148406194523
+    },
+    {
+      "workers": 2,
+      "round": 6,
+      "checkout": {
+        "batch_seconds": 0.8917958760866895,
+        "worker_seconds": [
+          0.8887397330254316,
+          0.8917604091111571
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.802602210897021,
+        "worker_seconds": [
+          3.7862757690018043,
+          3.8025555439526215
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.8464264071080834,
+        "worker_seconds": [
+          2.8209345299983397,
+          2.8463941960362718
+        ]
+      },
+      "total_seconds": 7.540824494091794
+    },
+    {
+      "workers": 4,
+      "round": 6,
+      "checkout": {
+        "batch_seconds": 1.7514498570235446,
+        "worker_seconds": [
+          1.7492800480686128,
+          1.7415004459908232,
+          1.7089444500161335,
+          1.7512030130019411
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.426846188027412,
+        "worker_seconds": [
+          9.419496012968011,
+          9.396063252934255,
+          9.39691718807444,
+          9.426806112984195
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.994493237929419,
+        "worker_seconds": [
+          4.9798420399893075,
+          4.9802652060752735,
+          4.993374173995107,
+          4.994464523973875
+        ]
+      },
+      "total_seconds": 16.172789282980375
+    },
+    {
+      "workers": 3,
+      "round": 6,
+      "checkout": {
+        "batch_seconds": 1.397920495015569,
+        "worker_seconds": [
+          1.3764869599835947,
+          1.3883317719446495,
+          1.3978694480611011
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.1425272630294785,
+        "worker_seconds": [
+          6.14232614391949,
+          6.1356898109661415,
+          6.114798084949143
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.823379719047807,
+        "worker_seconds": [
+          3.7940880049718544,
+          3.801891050999984,
+          3.82331933605019
+        ]
+      },
+      "total_seconds": 11.363827477092855
+    },
+    {
+      "workers": 1,
+      "round": 6,
+      "checkout": {
+        "batch_seconds": 0.757202040986158,
+        "worker_seconds": [
+          0.7571520460769534
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.654586793971248,
+        "worker_seconds": [
+          2.654530507978052
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2687512279953808,
+        "worker_seconds": [
+          2.268696515006013
+        ]
+      },
+      "total_seconds": 5.680540062952787
+    },
+    {
+      "workers": 3,
+      "round": 7,
+      "checkout": {
+        "batch_seconds": 1.3778248020680621,
+        "worker_seconds": [
+          1.3534910220187157,
+          1.3645546379266307,
+          1.3776426190743223
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.140679506934248,
+        "worker_seconds": [
+          6.140548890922219,
+          6.1405686780344695,
+          6.1345823761075735
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.840423170942813,
+        "worker_seconds": [
+          3.840273048961535,
+          3.8087047199951485,
+          3.8369673650013283
+        ]
+      },
+      "total_seconds": 11.358927479945123
+    },
+    {
+      "workers": 2,
+      "round": 7,
+      "checkout": {
+        "batch_seconds": 0.9545554289361462,
+        "worker_seconds": [
+          0.9544901050394401,
+          0.9456769389798865
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.7146773940185085,
+        "worker_seconds": [
+          3.714633572031744,
+          3.707730856956914
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.8436380290659145,
+        "worker_seconds": [
+          2.8435798790305853,
+          2.8347875319886953
+        ]
+      },
+      "total_seconds": 7.512870852020569
+    },
+    {
+      "workers": 1,
+      "round": 7,
+      "checkout": {
+        "batch_seconds": 0.7711846330203116,
+        "worker_seconds": [
+          0.7711303809192032
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.642429220955819,
+        "worker_seconds": [
+          2.642381121055223
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2347365700406954,
+        "worker_seconds": [
+          2.2346832589246333
+        ]
+      },
+      "total_seconds": 5.648350424016826
+    },
+    {
+      "workers": 4,
+      "round": 7,
+      "checkout": {
+        "batch_seconds": 1.842141013010405,
+        "worker_seconds": [
+          1.8420286210021004,
+          1.8413190679857507,
+          1.7862219570670277,
+          1.8367200630018488
+        ]
+      },
+      "install": {
+        "batch_seconds": 10.506087541929446,
+        "worker_seconds": [
+          10.502151013002731,
+          10.487436573021114,
+          10.505869742948562,
+          10.485375176998787
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.970508270082064,
+        "worker_seconds": [
+          4.935435741092078,
+          4.970446984050795,
+          4.96838117192965,
+          4.936025719973259
+        ]
+      },
+      "total_seconds": 17.318736825021915
+    },
+    {
+      "workers": 2,
+      "round": 8,
+      "checkout": {
+        "batch_seconds": 0.8965154670877382,
+        "worker_seconds": [
+          0.8738075889414176,
+          0.8964644609950483
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.758821594994515,
+        "worker_seconds": [
+          3.7541427389951423,
+          3.7587815900333226
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.891865579993464,
+        "worker_seconds": [
+          2.8766707349568605,
+          2.8918078310089186
+        ]
+      },
+      "total_seconds": 7.5472026420757174
+    },
+    {
+      "workers": 4,
+      "round": 8,
+      "checkout": {
+        "batch_seconds": 1.8618322749389336,
+        "worker_seconds": [
+          1.8565658850129694,
+          1.842070194077678,
+          1.8421028249431401,
+          1.8617869300069287
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.445974261965603,
+        "worker_seconds": [
+          9.412354659056291,
+          9.385867906035855,
+          9.381891288910992,
+          9.44593505805824
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.986628675018437,
+        "worker_seconds": [
+          4.983830093988217,
+          4.972781012067571,
+          4.986562511068769,
+          4.972815906978212
+        ]
+      },
+      "total_seconds": 16.294435211922973
+    },
+    {
+      "workers": 1,
+      "round": 8,
+      "checkout": {
+        "batch_seconds": 0.7652488780440763,
+        "worker_seconds": [
+          0.7651921319775283
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.6145754059543833,
+        "worker_seconds": [
+          2.6145257530733943
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.317663492052816,
+        "worker_seconds": [
+          2.3176070059416816
+        ]
+      },
+      "total_seconds": 5.697487776051275
+    },
+    {
+      "workers": 3,
+      "round": 8,
+      "checkout": {
+        "batch_seconds": 1.4701017630286515,
+        "worker_seconds": [
+          1.423460375983268,
+          1.4412377579137683,
+          1.469908781000413
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.279411108000204,
+        "worker_seconds": [
+          6.279357256018557,
+          6.210381377022713,
+          6.2748843469889835
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.0761800720356405,
+        "worker_seconds": [
+          4.062449338031001,
+          4.0700550969922915,
+          4.0761176840169355
+        ]
+      },
+      "total_seconds": 11.825692943064496
+    },
+    {
+      "workers": 1,
+      "round": 9,
+      "checkout": {
+        "batch_seconds": 0.7600922979181632,
+        "worker_seconds": [
+          0.760034539969638
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.6480188770219684,
+        "worker_seconds": [
+          2.6479698350885883
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.2375819969456643,
+        "worker_seconds": [
+          2.2375256709055975
+        ]
+      },
+      "total_seconds": 5.645693171885796
+    },
+    {
+      "workers": 3,
+      "round": 9,
+      "checkout": {
+        "batch_seconds": 1.3294012090191245,
+        "worker_seconds": [
+          1.3170188179938123,
+          1.3292135669616982,
+          1.3171663569519296
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.4642420469317585,
+        "worker_seconds": [
+          6.4641867330065,
+          6.426586669054814,
+          6.420586257008836
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.9098987879697233,
+        "worker_seconds": [
+          3.8884342019446194,
+          3.9098525809822604,
+          3.908099505933933
+        ]
+      },
+      "total_seconds": 11.703542043920606
+    },
+    {
+      "workers": 2,
+      "round": 9,
+      "checkout": {
+        "batch_seconds": 0.9304791510803625,
+        "worker_seconds": [
+          0.930441951029934,
+          0.9303293890552595
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.9742232729913667,
+        "worker_seconds": [
+          3.9741718870354816,
+          3.95044196001254
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.922599499928765,
+        "worker_seconds": [
+          2.867995986016467,
+          2.9225432639941573
+        ]
+      },
+      "total_seconds": 7.827301924000494
+    },
+    {
+      "workers": 4,
+      "round": 9,
+      "checkout": {
+        "batch_seconds": 1.8607962740352377,
+        "worker_seconds": [
+          1.8606191310100257,
+          1.83811181189958,
+          1.8392562839435413,
+          1.8442194159142673
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.499432052019984,
+        "worker_seconds": [
+          9.449414235074073,
+          9.456263844971545,
+          9.499160520965233,
+          9.453305211965926
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.987448689993471,
+        "worker_seconds": [
+          4.964192503015511,
+          4.968221066985279,
+          4.987379609956406,
+          4.9867440649541095
+        ]
+      },
+      "total_seconds": 16.347677016048692
+    },
+    {
+      "workers": 3,
+      "round": 10,
+      "checkout": {
+        "batch_seconds": 1.3728064130991697,
+        "worker_seconds": [
+          1.3726859060116112,
+          1.364847477991134,
+          1.3598969300510362
+        ]
+      },
+      "install": {
+        "batch_seconds": 6.193171593011357,
+        "worker_seconds": [
+          6.19311341305729,
+          6.168467171024531,
+          6.15910863596946
+        ]
+      },
+      "delete": {
+        "batch_seconds": 3.8956376649439335,
+        "worker_seconds": [
+          3.8932268619537354,
+          3.8623447850113735,
+          3.8956121370429173
+        ]
+      },
+      "total_seconds": 11.46161567105446
+    },
+    {
+      "workers": 4,
+      "round": 10,
+      "checkout": {
+        "batch_seconds": 1.8318409799830988,
+        "worker_seconds": [
+          1.81922243302688,
+          1.8305518050910905,
+          1.8091471269726753,
+          1.8318033190444112
+        ]
+      },
+      "install": {
+        "batch_seconds": 9.416722893947735,
+        "worker_seconds": [
+          9.338519264012575,
+          9.359763682004996,
+          9.359698568936437,
+          9.416543217026629
+        ]
+      },
+      "delete": {
+        "batch_seconds": 4.995290204999037,
+        "worker_seconds": [
+          4.977131651015952,
+          4.995236924965866,
+          4.980184821994044,
+          4.994078797055408
+        ]
+      },
+      "total_seconds": 16.24385407892987
+    },
+    {
+      "workers": 1,
+      "round": 10,
+      "checkout": {
+        "batch_seconds": 0.7602906529791653,
+        "worker_seconds": [
+          0.7602302799932659
+        ]
+      },
+      "install": {
+        "batch_seconds": 2.588366281008348,
+        "worker_seconds": [
+          2.588312449050136
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.198389771976508,
+        "worker_seconds": [
+          2.1983378739096224
+        ]
+      },
+      "total_seconds": 5.547046705964021
+    },
+    {
+      "workers": 2,
+      "round": 10,
+      "checkout": {
+        "batch_seconds": 0.9011376890121028,
+        "worker_seconds": [
+          0.9010189360706136,
+          0.8861698450054973
+        ]
+      },
+      "install": {
+        "batch_seconds": 3.81912366906181,
+        "worker_seconds": [
+          3.8190735339885578,
+          3.808864678023383
+        ]
+      },
+      "delete": {
+        "batch_seconds": 2.9034073810325935,
+        "worker_seconds": [
+          2.9033591710031033,
+          2.886229862109758
+        ]
+      },
+      "total_seconds": 7.623668739106506
+    }
+  ],
+  "metadata": {
+    "started_utc": "2026-10-29T03:55:16.419679+00:00",
+    "source": "/home/narze/Code/github.com/eventpop/eventpop",
+    "commit": "0e0499f42444f1e4b2c0a6d11fc8043b42be295a",
+    "target": "/home/narze/.t3/scratch/2026-10-28-from-this-video-i-m-e4ff2641/fsbench-xfs-compare-i3wazuqo/native-btrfs/fsbench-p73w377u",
+    "platform": "Linux-7.2.8-9-omarchy-x86_64-with-glibc2.44",
+    "machine": "x86_64",
+    "cpu_count": 16,
+    "git_version": "git version 2.56.0",
+    "python_version": "3.14.8",
+    "workers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "runs": 10,
+    "warmups_per_worker_count": 1,
+    "cache": "warm / uncontrolled OS cache; no cache eviction",
+    "durability": "command completion; no fsync or cache flush",
+    "import_method": "auto",
+    "install_scripts": false,
+    "lifecycle": "stage barriers: all checkouts, all installs, all deletions",
+    "seed_store": null,
+    "free_bytes_before": 311691788288,
+    "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/home\",\n         \"source\": \"/dev/mapper/omarchy_root[/@home]\",\n         \"fstype\": \"btrfs\",\n         \"options\": \"rw,noatime,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home\"\n      }\n   ]\n}",
+    "tracked_files": 10055,
+    "pnpm_version": "11.18.0",
+    "node_version": "v24.22.1",
+    "pnpm_executable": "/home/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm",
+    "lockfile_sha256_normalized": "f36b25962d9f8562456fc25c608c4ab0bf1318f0a31fb2cc60134bc461967b9e",
+    "finished_utc": "2026-10-29T04:22:39.814491+00:00",
+    "preflight_batches_excluded": 4,
+    "paired_experiment": true,
+    "case": "native-btrfs",
+    "measured_started_utc": "2026-10-29T03:56:46.977751+00:00"
+  }
+}

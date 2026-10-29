@@ -1,0 +1,19 @@
+  PID  %CPU COMM
+25530 240.3 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+25528 217.1 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+25529 210.9 /Users/narze/.local/share/mise/installs/pnpm/11.18.0/pnpm
+ 1227  46.9 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+19177  26.7 /opt/homebrew/opt/sketchybar/bin/sketchybar
+69075   9.8 /Applications/OrbStack.app/Contents/Frameworks/OrbStack Helper.app/Contents/MacOS/OrbStack Helper
+17071   8.7 /opt/homebrew/bin/herdr
+61436   8.5 /Users/narze/.local/share/mise/installs/android-sdk/23.0/emulator/qemu/darwin-aarch64/qemu-system-aarch64-headless
+ 1626   7.3 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+ 3075   6.5 /System/Volumes/Data/Applications/ActivityWatch.app/Contents/MacOS/aw-watcher-window
+ 1252   4.8 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds
+59006   3.6 /Applications/T3 Code (Beta).app/Contents/Frameworks/T3 Code (Beta) Helper.app/Contents/MacOS/T3 Code (Beta) Helper
+59102   3.5 /Applications/T3 Code (Beta).app/Contents/Frameworks/T3 Code (Beta) Helper (Renderer).app/Contents/MacOS/T3 Code (Beta) Helper (Renderer)
+ 1419   3.5 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/logioptionsplus_updater.app/Contents/MacOS/logioptionsplus_updater
+ 1264   3.2 /usr/libexec/opendirectoryd
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   926Gi   788Gi    95Gi    90%     11M  1.0G    1%   /System/Volumes/Data
+ 0:40  up 38 days,  4:58, 1 user, load averages: 42.68 19.19 10.61

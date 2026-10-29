@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><style>
+    body {margin:0;font-family:var(--font-sans,system-ui);color:var(--foreground,#ddd)}
+    h2 {margin:0 0 8px;font-size:20px} p {font-size:13px;line-height:1.5;color:var(--muted-foreground,#999)}
+    .group {font-size:13px;margin:18px 0 6px;font-weight:600}
+    .barrow {display:grid;grid-template-columns:125px 1fr 65px;gap:8px;align-items:center;margin:5px 0}
+    .label,.rate {font-size:11px} .rate {text-align:right}
+    .track {height:29px;position:relative;background:var(--secondary,#222);border-radius:4px;overflow:hidden}
+    .bar {height:100%;opacity:.5} .linux {background:var(--chart-1,#659bff)}
+    .mac {background:var(--chart-2,#62caaa)} .value {position:absolute;left:7px;top:7px;font-size:12px}
+    .scroll {overflow:auto;margin-top:22px} table {width:100%;border-collapse:collapse;font-size:11px;font-variant-numeric:tabular-nums}
+    td,th {text-align:right;padding:8px 4px;border-bottom:1px solid var(--border,#333);white-space:nowrap}
+    td:nth-child(2),th:nth-child(2) {text-align:left} th {font-weight:500;color:var(--muted-foreground,#999)}
+    </style></head><body><h2>Eventpop · Linux PC and MacBook M4 Pro</h2>
+    <p>Same commit 0e0499f42444, Node 24.22.1 and pnpm 11.18.0. Ten measured batches per worker count.
+    Offline installs, scripts disabled, warm caches. Bars show median batch time; lower is faster.
+    Right column shows workflows per second.</p>
+    <div class="group">1 worker(s)</div><div class="barrow"><span class="label">Linux PC · Btrfs</span>
+            <div class="track"><div class="bar linux" style="width:14.72%"></div>
+            <span class="value">5.673 s</span></div>
+            <span class="rate">0.176/s</span></div><div class="barrow"><span class="label">M4 Pro · APFS</span>
+            <div class="track"><div class="bar mac" style="width:29.88%"></div>
+            <span class="value">11.514 s</span></div>
+            <span class="rate">0.087/s</span></div><div class="group">2 worker(s)</div><div class="barrow"><span class="label">Linux PC · Btrfs</span>
+            <div class="track"><div class="bar linux" style="width:19.66%"></div>
+            <span class="value">7.579 s</span></div>
+            <span class="rate">0.264/s</span></div><div class="barrow"><span class="label">M4 Pro · APFS</span>
+            <div class="track"><div class="bar mac" style="width:46.75%"></div>
+            <span class="value">18.016 s</span></div>
+            <span class="rate">0.111/s</span></div><div class="group">3 worker(s)</div><div class="barrow"><span class="label">Linux PC · Btrfs</span>
+            <div class="track"><div class="bar linux" style="width:30.70%"></div>
+            <span class="value">11.833 s</span></div>
+            <span class="rate">0.254/s</span></div><div class="barrow"><span class="label">M4 Pro · APFS</span>
+            <div class="track"><div class="bar mac" style="width:68.36%"></div>
+            <span class="value">26.346 s</span></div>
+            <span class="rate">0.114/s</span></div><div class="group">4 worker(s)</div><div class="barrow"><span class="label">Linux PC · Btrfs</span>
+            <div class="track"><div class="bar linux" style="width:43.47%"></div>
+            <span class="value">16.754 s</span></div>
+            <span class="rate">0.239/s</span></div><div class="barrow"><span class="label">M4 Pro · APFS</span>
+            <div class="track"><div class="bar mac" style="width:100.00%"></div>
+            <span class="value">38.539 s</span></div>
+            <span class="rate">0.104/s</span></div><div class="scroll"><table><thead><tr><th>Workers</th><th>Machine</th>
+    <th>Checkout</th><th>Install</th><th>Delete</th><th>Total</th><th>Total range</th></tr></thead>
+    <tbody><tr><td>1</td><td>Linux PC · Btrfs</td><td>0.759</td><td>2.647</td><td>2.263</td><td>5.673</td><td>5.569 - 6.244</td></tr><tr><td>1</td><td>M4 Pro · APFS</td><td>1.545</td><td>5.180</td><td>4.666</td><td>11.514</td><td>10.781 - 13.303</td></tr><tr><td>2</td><td>Linux PC · Btrfs</td><td>0.926</td><td>3.788</td><td>2.885</td><td>7.579</td><td>7.437 - 8.785</td></tr><tr><td>2</td><td>M4 Pro · APFS</td><td>1.535</td><td>10.140</td><td>6.244</td><td>18.016</td><td>17.001 - 20.182</td></tr><tr><td>3</td><td>Linux PC · Btrfs</td><td>1.362</td><td>6.634</td><td>3.909</td><td>11.833</td><td>11.202 - 13.529</td></tr><tr><td>3</td><td>M4 Pro · APFS</td><td>1.870</td><td>16.139</td><td>8.471</td><td>26.346</td><td>25.362 - 28.704</td></tr><tr><td>4</td><td>Linux PC · Btrfs</td><td>1.836</td><td>10.054</td><td>4.889</td><td>16.754</td><td>16.396 - 20.160</td></tr><tr><td>4</td><td>M4 Pro · APFS</td><td>2.180</td><td>23.460</td><td>12.594</td><td>38.539</td><td>36.058 - 40.877</td></tr></tbody></table></div>
+    <p>Phase times are medians in seconds. Each batch performs one workflow per worker,
+    with barriers between phases. Total is the median of each batch's phase sum.</p>
+    <p>Run reliability: 1 failed Mac checkout batch attempt(s) are recorded separately and excluded from successful-batch timings. The Mac run resumed after a Git worktree metadata read error; all 40 successful batches are included.</p>
+    <p>This compares two complete systems, including CPUs, SSDs, operating systems,
+    Git versions, platform-specific optional packages, encryption, free space and native package import behavior.
+    It cannot isolate filesystem performance.
+    Linux uses Btrfs with zstd:3 and LUKS; the Mac uses APFS with FileVault, AC power,
+    and about 37 GiB free at the start. Indexing and background applications remain active.</p>
+    </body></html>

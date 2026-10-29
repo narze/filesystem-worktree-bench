@@ -1,0 +1,10 @@
+{
+  "source_head": "473ab1b24d8c41efe17121ec60bfb9c9757cfffd",
+  "source_status": "",
+  "remaining_trees": [],
+  "free_space": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda2       908G   58G  804G   7% /\n",
+  "generated_size": "1.2G\t/home/narze/fsbench/eventpop-20261029-mHK14W\n",
+  "memory": "               total        used        free      shared  buff/cache   available\nMem:      8190574592  4662812672  1886380032     3776512  2002898944  3527761920\nSwap:     8446275584  2844946432  5601329152\n",
+  "load": " 01:03:55 up 18 days, 17:22,  4 users,  load average: 8.37, 17.12, 16.27\n",
+  "worktrees": "worktree /home/narze/fsbench/eventpop-20261029-mHK14W/fsbench-8gtr6k8y/repo.git\nbare\n\n"
+}
