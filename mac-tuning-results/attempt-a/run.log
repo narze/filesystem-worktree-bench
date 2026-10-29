@@ -1,0 +1,13 @@
+{"status": "failed", "free_after": 39438692352, "cleanup_error": "ValueError('Refusing operation on an unrecognized experiment volume')"}
+Traceback (most recent call last):
+  File "/Users/narze/fsbench/eventpop-tuning-20261029a/mac_tuning.py", line 194, in <module>
+    main()
+    ~~~~^^
+  File "/Users/narze/fsbench/eventpop-tuning-20261029a/mac_tuning.py", line 109, in main
+    command(['diskutil', 'mount', device])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narze/fsbench/eventpop-tuning-20261029a/mac_tuning.py", line 51, in command
+    raise RuntimeError(f'{args[:5]}: {p.stdout.decode(errors="replace")[-4000:]}')
+RuntimeError: ['diskutil', 'mount', 'disk3s7']: Volume on disk3s7 failed to mount
+This is an encrypted and locked APFS Volume; use "diskutil apfs unlockVolume"
+
